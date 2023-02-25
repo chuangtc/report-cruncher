@@ -26,11 +26,8 @@ pytest-datafiles = "^2.0.1"
 pytest-cov = "^3.0.0"
 psycopg2-binary = "^2.9.5"
 black = "^23.1.0"
-<<<<<<< HEAD
 pypdf2 = "^3.0.1"
-=======
 redis = "^4.5.1"
->>>>>>> e5351cd79e5e11da99f8b6916ca28a50fcd6e187
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
