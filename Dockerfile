@@ -3,7 +3,7 @@ FROM python:3.9-slim-bullseye
 ENV HOME=/usr/local/lib
 
 # Update the system
-RUN apt-get update
+RUN apt-get update && apt-get install -y curl \
     && curl -sSL https://install.python-poetry.org | POETRY_HOME=/etc/poetry python3 - \
     && rm -rf /var/lib/apt/lists/*
 
