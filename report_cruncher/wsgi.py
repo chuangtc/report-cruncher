@@ -2,6 +2,7 @@ import json
 import logging.config
 import os
 
+import redis
 import structlog
 from dotenv import load_dotenv, find_dotenv
 from flask import Flask
@@ -16,7 +17,7 @@ from report_cruncher.config.logger import (
 )
 from report_cruncher.constants import (
     APP_LOG_LEVEL_ENV_KEY,
-    SERVER_LOG_LEVEL_ENV_KEY, API_ERROR_UNHANDELED,
+    SERVER_LOG_LEVEL_ENV_KEY, API_ERROR_UNHANDELED, REDIS_HOST_KEY, REDIS_PORT_KEY,
 )
 from report_cruncher.handler import dataloader_handler, chat_handler, search_handler
 from report_cruncher.helper.api_types import create_error_return
@@ -57,6 +58,13 @@ def init_app(use_log_handlers="gunicorn.error") -> Flask:
         app_log_level=logging.root.level,
     )
     return flask_app
+
+
+def setup_redis():
+    radis_host = os.getenv(REDIS_HOST_KEY)
+    redis_port = int(os.getenv(REDIS_PORT_KEY))
+    r = redis.Redis(host=radis_host, port=redis_port, db=0)
+    return r
 
 
 load_dotenv(find_dotenv())
