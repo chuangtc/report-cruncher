@@ -14,4 +14,4 @@ def read_pdf(file):
         
         text_array.append(page.extractText())
 
-        return text_array
+    return text_array
