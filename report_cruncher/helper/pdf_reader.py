@@ -12,6 +12,6 @@ def read_pdf(file):
         
         page = pdfReader.pages[i]
         
-        text_array.append(page.extractText())
+        text_array.append(page.extract_text())
 
     return text_array
