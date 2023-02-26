@@ -6,8 +6,8 @@ from report_cruncher.constants import API_ERROR_NO_FILE_FOUND, API_ERROR_UNSUPPO
 from report_cruncher.helper.api_types import create_error_return
 from werkzeug.utils import secure_filename
 
-from openai.embed_text import execute
-from reader.pdf_reader import read_pdf
+from report_cruncher.openai.embed_text import execute
+from report_cruncher.reader.pdf_reader import read_pdf
 
 dataloader_blueprint = Blueprint("dataloader", __name__)
 
@@ -41,16 +41,16 @@ def dataloader() -> Response:
     with tempfile.TemporaryDirectory() as temp_dir:
         file_path = os.path.join(temp_dir, secure_filename(file.filename))
         file.save(file_path)
-        
+
         # extract information from PDF
         exracted_text = read_pdf(file_path)
 
         # make call to openAI
         # get the embadding
         _em = execute(exracted_text)
-        
+
         # store the embadding into radis
-        
+
 
         payload = {"success": True}
         response = Response(
