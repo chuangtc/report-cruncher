@@ -7,3 +7,5 @@ report_cruncher/handler/__pycache__/
 report_cruncher/helper/__pycache__/
 
 report_cruncher/__pycache__/
+
+env/

@@ -9,10 +9,7 @@ def read_pdf(file):
     for i in range(pages):
         
         page = pdfReader.pages[i]
-        print("Page\n", i)
         
         t = page.extract_text()
 
-        print('Content\n', t)
-
-        return c
+        return t

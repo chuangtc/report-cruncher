@@ -6,8 +6,8 @@ from report_cruncher.constants import API_ERROR_NO_FILE_FOUND, API_ERROR_UNSUPPO
 from report_cruncher.helper.api_types import create_error_return
 from werkzeug.utils import secure_filename
 
-from openai.embed_text import execute
-from reader.pdf_reader import read_pdf
+from ..helper.embed_text import execute
+from ..helper.pdf_reader import read_pdf
 
 dataloader_blueprint = Blueprint("dataloader", __name__)
 
