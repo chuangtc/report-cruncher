@@ -2,6 +2,8 @@ import PyPDF2
 
 
 def read_pdf(file):
+    text_array = []
+
     pdfReader = PyPDF2.PdfReader(file)
 
     pages = len(pdfReader.pages)
@@ -10,6 +12,6 @@ def read_pdf(file):
         
         page = pdfReader.pages[i]
         
-        t = page.extract_text()
+        text_array.append(page.extractText())
 
-        return t
+        return text_array
