@@ -9,9 +9,9 @@ def read_pdf(file):
     pages = len(pdfReader.pages)
 
     for i in range(pages):
-        
+
         page = pdfReader.pages[i]
-        
-        text_array.append(page.extractText())
+
+        text_array.append(page.extract_text())
 
     return text_array
