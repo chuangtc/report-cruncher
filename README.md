@@ -37,3 +37,10 @@ export PYTHONPYCACHEPREFIX="$HOME/.cache/cpython/"
 find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
 ```
 
+# client
+
+## Getting Started
+
+cd report-cruncher-client
+yarn install
+yarn start
