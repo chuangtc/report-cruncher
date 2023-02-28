@@ -29,6 +29,8 @@ black = "^23.1.0"
 pypdf2 = "^3.0.1"
 redis = "^4.5.1"
 openai = "^0.26.5"
+transformers = "^4.26.1"
+tenacity = "^8.2.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

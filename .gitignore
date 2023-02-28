@@ -9,3 +9,5 @@ report_cruncher/helper/__pycache__/
 report_cruncher/__pycache__/
 
 env/
+
+report-cruncher-client/node_modules
