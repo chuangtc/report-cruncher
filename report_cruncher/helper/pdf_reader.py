@@ -1,8 +1,16 @@
 import PyPDF2
 
 
-def read_pdf(file):
-    text_array = []
+def write_to_txt(filename, data) -> None:
+    try:
+        with open(filename, "w") as f:
+            f.write(data)
+    except Exception as e:
+        print(e)
+
+
+def read_pdf(file) -> str:
+    _data = ""
 
     pdfReader = PyPDF2.PdfReader(file)
 
@@ -12,6 +20,10 @@ def read_pdf(file):
         
         page = pdfReader.pages[i]
         
-        text_array.append(page.extract_text())
+        t = page.extract_text()
 
-    return text_array
+        _data += t
+
+    write_to_txt("test.txt", _data)
+
+    return _data
