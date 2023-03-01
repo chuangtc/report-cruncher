@@ -4,7 +4,7 @@ import BackupIcon from '@mui/icons-material/Backup';
 import {useDispatch} from "react-redux";
 import {uploaderSlice} from "./uploader.reducer";
 import {useAppSelector} from "../../store/store";
-
+import {useNavigate} from "react-router-dom";
 
 const ContainerWrapper = styled('div')`
   display: flex;
@@ -17,6 +17,8 @@ const ContainerWrapper = styled('div')`
 
 export const DragAndDropFileUploaderComponent = () => {
     const dispatcher = useDispatch();
+    const navigate = useNavigate();
+
     const state = useAppSelector(state => state.uploader);
     const [filesToUpload, setFilesToUpload] = React.useState<Array<File>>([]);
 
@@ -41,7 +43,12 @@ export const DragAndDropFileUploaderComponent = () => {
 
     const handleSubmit = () => {
         dispatcher(uploaderSlice.actions.uploadFiles(filesToUpload))
-
+        // delay one minut
+        if (state.isUploading) return;
+        if (filesToUpload.length === 0) return;
+        setTimeout(() => {
+            navigate('/chat');
+        }, 2000);
     };
 
     return (
@@ -73,7 +80,8 @@ export const DragAndDropFileUploaderComponent = () => {
                         marginTop: 10,
                         cursor: 'pointer',
                         color: '#3AA1AF',
-                        fontSize: '16px'
+                        fontSize: '16px',
+                        fontWeight: '700'
                     }}
                 >
                     Click to upload

@@ -6,7 +6,6 @@ interface PageStructureLayoutProps {
     children: React.ReactNode
     title: string
     subtitle?: string
-
 }
 
 const ContainerWrapper = styled('div')`

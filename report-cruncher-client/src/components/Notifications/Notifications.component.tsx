@@ -43,7 +43,7 @@ const StyledContainer = styled('div')`
 
   .MuiAlert-root {
     pointer-events: all;
-    background: ${(props) => (props.theme.palette.mode === 'light' ? '#fff' : '#00313a')};
+    background: ${(props) => (props.theme.palette.mode === 'light' ? 'rgb(255, 254, 252)' : '#121619')};
     margin-top: 20px;
     width: 400px;
   }
