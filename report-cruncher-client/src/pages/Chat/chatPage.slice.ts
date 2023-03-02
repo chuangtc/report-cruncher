@@ -36,7 +36,7 @@ export const getInitialState = (): ChatPageSliceState => ({
     isFetchingMore: false,
     fetchMoreError: null,
     isFetchMoreSuccess: false,
-    pageTitle: "Chat"
+    pageTitle: "AI"
 })
 
 export const chatPageSlice = createSlice({
@@ -59,7 +59,7 @@ export const chatPageSlice = createSlice({
             state.isFetching = true
         },
         setPageTitle: (state, action: PayloadAction<{ pageTitle: string | undefined }>) => {
-            state.pageTitle = action.payload.pageTitle ?? "Chat"
+            state.pageTitle = action.payload.pageTitle ?? "AI"
         }
     }
 })
