@@ -1,8 +1,8 @@
 import {PageStructureLayoutComponent} from "../../components/pageLayout/pageStructureLayout.component";
-import {ChatAreaComponent} from "./chatArea.component";
+import {ChatPageComponent} from "./chatPage.component";
 
 export const ChatPage = () => {
     return (
-        <PageStructureLayoutComponent title={"Chat"} children={<ChatAreaComponent/>}/>
+        <PageStructureLayoutComponent title={"Chat"} children={<ChatPageComponent/>}/>
     )
 }

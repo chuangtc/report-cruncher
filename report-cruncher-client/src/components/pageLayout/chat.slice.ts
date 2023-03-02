@@ -1,13 +1,15 @@
 import {MenuItem} from "./pageLayout.types";
-import {createSlice} from "@reduxjs/toolkit";
+import {createSlice, PayloadAction} from "@reduxjs/toolkit";
 
 export interface ChatSliceState {
-    chatRooms : MenuItem[]
+    chatRooms: MenuItem[]
+    loading: boolean
 
 }
 
 const initialState: ChatSliceState = {
-    chatRooms: []
+    chatRooms: [],
+    loading: false
 }
 
 export const chatSlice = createSlice({
@@ -17,8 +19,12 @@ export const chatSlice = createSlice({
         setChatRooms: (state, action) => {
             state.chatRooms = action.payload
         },
-        deleteChatRoom: (state, action) => {
-            state.chatRooms = state.chatRooms.filter(room => room.key !== action.payload)
+        deleteChatRoom: (state, action: PayloadAction<{ id: string }>) => {
+            state.loading = true
+        },
+        handleDeleteChatRoomSuccess: (state, action: PayloadAction<{ id: string }>) => {
+            state.chatRooms = state.chatRooms.filter(room => !room.route?.includes(`chat/${action.payload.id}`))
+            state.loading = false
         },
         addChatRoom: (state, action) => {
             state.chatRooms.push(action.payload)

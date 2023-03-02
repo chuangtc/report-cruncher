@@ -2,11 +2,13 @@ import React, {useEffect, useState} from 'react';
 import {Button, Container, styled, TextField} from '@mui/material';
 import CircularProgress from '@mui/material/CircularProgress';
 import Box from '@mui/material/Box';
-import {useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 import {useDispatch} from "react-redux";
 import {uploaderSlice} from "../Home/uploader.reducer";
 import {useAppSelector} from "../../store/store";
 import {chatPageSlice, Message} from './chatPage.slice';
+import DeleteIcon from '@mui/icons-material/Delete';
+import {chatSlice} from "../../components/pageLayout/chat.slice";
 
 const GptTextWrapper = styled('div')`
   width: 100%;
@@ -24,6 +26,17 @@ const ChatAreaWrapper = styled('div')`
   display: flex;
   align-items: center;
 `
+
+const TextAreaStyle = styled(TextField)`
+  border-radius: 5px;
+  width: 100%;
+  padding: 11px;
+  flex: 1;
+  .MuiInputBase-root {
+    padding: 10px 14px;
+  }
+`
+
 
 type ChatPageState = {
     text: string
@@ -43,7 +56,7 @@ const ColorButton = styled(Button)(({theme}) => ({
         cursor: 'not-allowed',
     }
 }));
-export const ChatAreaComponent = () => {
+export const ChatPageComponent = () => {
     const [state, setState] = useState<ChatPageState>({
         text: '',
     });
@@ -52,6 +65,7 @@ export const ChatAreaComponent = () => {
     const dispatch = useDispatch();
     const chatState = useAppSelector((state) => state.chat)
     const {id} = useParams();
+    const navigator = useNavigate();
     useEffect(() => {
         if (uploaderState.isUploadSuccess) {
             dispatch(uploaderSlice.actions.setUploadSuccess());
@@ -63,7 +77,7 @@ export const ChatAreaComponent = () => {
                 }
             })
         }
-    }, [])
+    }, [id])
 
     const handleSubmit = () => {
         const message: Message = {
@@ -124,14 +138,36 @@ export const ChatAreaComponent = () => {
         );
     };
 
+    const handleDeleteChat = () => {
+        dispatch(chatSlice.actions.deleteChatRoom({id: `${id}`}))
+
+        navigator('/')
+    }
+    const getDeleteIcon = () => {
+        if (chatState.chatRooms.length > 1 && chatPageState.pageTitle !== 'Chat') {
+            return (
+                <DeleteIcon style={{
+                    cursor: 'pointer',
+                    color: 'red',
+                }} onClick={handleDeleteChat}/>
+            )
+        }
+    }
     return (
         <>
             {chatPageState.isLoading ?
                 <CircularIndeterminate/> :
                 <>
-                    <Container>
-                        <h3>Joining {chatPageState.pageTitle} </h3>
+                    <Container
+                        style={{
+                            display: 'flex',
+                            alignItems: 'center',
 
+                        }}>
+                        <h3 style={{
+                            color: '#3AA1AF',
+                        }}>Chatting with {chatPageState.pageTitle} </h3>
+                        {getDeleteIcon()}
                     </Container>
                     <ChatArea/>
                     <form
@@ -141,19 +177,20 @@ export const ChatAreaComponent = () => {
                             zIndex: 1000,
                             display: 'flex',
                             alignItems: 'center',
-                            justifyContent: 'center',
+                            justifyContent: 'space-between',
                             gap: '10px',
+                            position: 'fixed',
+                            bottom: '0',
+                            width: '-webkit-fill-available',
+                            margin: '0 20px',
                         }}
                         onSubmit={(e) => {
                             e.preventDefault();
                             handleSubmit();
                         }}
                     >
-                        <TextField
+                        <TextAreaStyle
                             id="chat"
-                            style={{
-                                borderRadius: '5px',
-                            }}
                             multiline
                             minRows={1}
                             value={state.text}

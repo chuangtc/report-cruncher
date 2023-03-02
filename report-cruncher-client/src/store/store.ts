@@ -10,6 +10,7 @@ import {uploaderSlice} from "../pages/Home/uploader.reducer";
 import {chatSlice} from "../components/pageLayout/chat.slice";
 import {chatPageSlice} from "../pages/Chat/chatPage.slice";
 import {chatPageEffects} from "../pages/Chat/chatPage.effects";
+import {chatRoomsEffects} from "../components/pageLayout/chatRooms.effects";
 
 const reducer = combineReducers({
     user: userSlice.reducer,
@@ -23,6 +24,7 @@ const epics = combineEpics(
     ...notificationsEffects,
     ...uploaderEffects,
     ...chatPageEffects,
+    ...chatRoomsEffects,
 )
 
 const epicMiddleware = createEpicMiddleware<AnyAction, AnyAction, any, EpicMiddlewareDependencies>({})
@@ -32,7 +34,7 @@ export const store = configureStore({
     middleware: (getDefaultMiddleware) => [
         ...getDefaultMiddleware({
             thunk: true,
-            serializableCheck: {},
+            serializableCheck: false,
         }),
         epicMiddleware,
     ],

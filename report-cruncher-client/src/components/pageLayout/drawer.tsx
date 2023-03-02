@@ -249,6 +249,13 @@ const NewChatButton = styled(Button)`
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+  &.closed {
+    padding: 0;
+    justify-content: center;
+    width: 45px;
+    min-width: 0;
+    margin-left: 30px;
+  }
   span {
     color: #fff;
   }
@@ -450,7 +457,6 @@ export const MenuDrawer = ({
             </SecondLevelDrawer>
             <Drawer variant="permanent" open={state.open} id={'main_menu'}>
                 <MenuLogo className={openOrClosedClassName}>
-                    {/*logo*/}
                     <span>{state.open ? projectTitle : 'RC AI'}</span>
                 </MenuLogo>
                 <NewChatButton
@@ -459,7 +465,7 @@ export const MenuDrawer = ({
                 >
                     <MenuDrawerListItemIcon>{defaultItem.icon}
                     </MenuDrawerListItemIcon>
-                    <span>{defaultItem.label}</span>
+                    {state.open ? <span>{defaultItem.label}</span> : null}
                 </NewChatButton>
                 <TopList>
                     {menuItems.map((menuItem, index) => (
