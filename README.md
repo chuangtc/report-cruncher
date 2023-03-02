@@ -24,7 +24,7 @@ source ~/.bashrc
 pip3 install gunicorn
 pip3 install structlog
 ```
-## Running in local
+## Running in local for backend
 ```bash
 cp .env.example .env
 # Install dependencies
@@ -37,10 +37,11 @@ export PYTHONPYCACHEPREFIX="$HOME/.cache/cpython/"
 find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
 ```
 
-# client
+## Runing in local for client
 
-## Getting Started
-
+### Getting Started
+```bash
 cd report-cruncher-client
 yarn install
 yarn start
+```
