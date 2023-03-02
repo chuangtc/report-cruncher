@@ -11,6 +11,8 @@ export interface MenuItem {
     label?: string;
     renderItem?: (openOrClosedClassName: string) => React.ReactNode;
     icon?: React.ReactNode;
+
+    uploadName?: string;
     route?: string;
     activeOnRoutes?: ActiveOnRoute[];
     children?: MenuItem[];

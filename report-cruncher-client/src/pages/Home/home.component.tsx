@@ -1,5 +1,4 @@
 import {PageStructureLayoutComponent} from "../../components/pageLayout/pageStructureLayout.component";
-import {FileUploaderComponent} from "./fileUploader.component";
 import {DragAndDropFileUploaderComponent} from "./dragAndDropFileUploader.component";
 
 export const HomePage = () => {

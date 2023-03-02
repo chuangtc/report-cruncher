@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Button, styled} from "@mui/material";
 import BackupIcon from '@mui/icons-material/Backup';
 import {useDispatch} from "react-redux";
 import {uploaderSlice} from "./uploader.reducer";
 import {useAppSelector} from "../../store/store";
 import {useNavigate} from "react-router-dom";
+import {getRouteEntry} from "../../components/pageLayout/pageLayout.component";
+import ChatIcon from "@mui/icons-material/Chat";
+import {chatSlice} from "../../components/pageLayout/chat.slice";
 
 const ContainerWrapper = styled('div')`
   display: flex;
@@ -15,18 +18,18 @@ const ContainerWrapper = styled('div')`
   height: 100%;
 `
 
-const ColorButton = styled(Button)(({ theme }) => ({
+const ColorButton = styled(Button)(({theme}) => ({
     color: theme.palette.getContrastText("#3AA1AF"),
     backgroundColor: "#3AA1AF",
     '&:hover': {
-      backgroundColor: "#3AA1AF",
+        backgroundColor: "#3AA1AF",
     },
 }));
 
 export const DragAndDropFileUploaderComponent = () => {
     const dispatcher = useDispatch();
     const navigate = useNavigate();
-
+    const chatState = useAppSelector((state) => state.chat)
     const state = useAppSelector(state => state.uploader);
     const [filesToUpload, setFilesToUpload] = React.useState<Array<File>>([]);
 
@@ -39,6 +42,11 @@ export const DragAndDropFileUploaderComponent = () => {
         }
     };
 
+    useEffect(() => {
+        if (state.isUploadSuccess) {
+            addChatItem()
+        }
+    }, [state.isUploadSuccess])
     const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
         // handle uploaded files here
         const uploadedFile = e.target.files && e.target.files[0];
@@ -51,14 +59,20 @@ export const DragAndDropFileUploaderComponent = () => {
 
     const handleSubmit = () => {
         dispatcher(uploaderSlice.actions.uploadFiles(filesToUpload))
-        // delay one minut
-        if (state.isUploading) return;
-        if (filesToUpload.length === 0) return;
-        setTimeout(() => {
-            navigate('/chat');
-        }, 2000);
     };
-
+    const addChatItem = () => {
+        const chatRoomsLength = chatState.chatRooms.length
+        const chatRoom = `/chat/${chatRoomsLength}`
+        const item = getRouteEntry({
+            label: `# ${state.fileName ?? 'Chat'}`,
+            route: chatRoom,
+            uploadName: state.fileName,
+            icon: <ChatIcon/>,
+            id: `menu__chat__${chatRoomsLength}`
+        });
+        dispatcher(chatSlice.actions.addChatRoom(item))
+        navigate(chatRoom)
+    }
     return (
         <ContainerWrapper>
             <div
@@ -119,7 +133,7 @@ export const DragAndDropFileUploaderComponent = () => {
                     </p>
                 }
             </div>
-             <ColorButton
+            <ColorButton
                 variant="contained"
                 onClick={handleSubmit}
                 disabled={state.isUploading}

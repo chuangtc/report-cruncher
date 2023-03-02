@@ -1,9 +1,11 @@
 import {matchPath, useLocation, useNavigate} from "react-router-dom";
 import React, {useState} from "react";
 import {MenuItem} from "./pageLayout.types";
-import {Button, List, ListItemButton, ListItemIcon, ListItemText, styled, Theme} from "@mui/material";
+import {Button, Container, List, ListItemButton, ListItemIcon, ListItemText, styled, Theme} from "@mui/material";
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import MuiDrawer from '@mui/material/Drawer'
+import AddIcon from "@mui/icons-material/Add";
+import {getRouteEntry} from "./pageLayout.component";
 
 const drawerWidth = 277
 const drawerWidthClosed = 103
@@ -115,6 +117,17 @@ const SecondLevelListItem = styled(ListItemButton)`
 
 const SecondLevelListItemText = styled(ListItemText)``
 
+const ContainerWrapperListItem = styled(Container)`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  &.first-child {
+    border: 1px solid ${(props) => (props.theme.palette.mode === 'light' ? '#000' : '#000')};
+
+`
+
 const ListItem = styled(ListItemButton)`
   padding-left: 24px;
   padding-top: 0;
@@ -123,8 +136,8 @@ const ListItem = styled(ListItemButton)`
   @media screen and (max-height: 800px) {
     padding-left: 30px;
   }
-  color: ${(props) => (props.theme.palette.mode === 'light' ? '#fff' : '#000')};
-
+  color: ${(props) => (props.theme.palette.mode === 'light' ? '#000' : '#fff')};
+  // add border to the first child
   &.active {
     color: ${(props) => (props.theme.palette.mode === 'light' ? '#fff' : '#000')};
 
@@ -161,6 +174,7 @@ export const MenuDrawerListItemIcon = styled(ListItemIcon)`
   justify-content: center;
   align-items: center;
   transition: 0.3s ease margin-right;
+  color: ${(props) => (props.theme.palette.mode === 'light' ? '#fff' : '#000')};
 
   &.closed {
     margin-right: 40px;
@@ -170,7 +184,35 @@ export const MenuDrawerBottomListItem: any = styled(ListItem)`
   text-transform: none;
 `
 export const MenuDrawerListItemText: any = styled(ListItemText)`
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 200px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  color: ${(props) => (props.theme.palette.mode === 'light' ? '#fff' : '#000')};
   margin-left: 5px;
+
+  span {
+    position: relative;
+    width: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    animation: typewriter 1s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+
+  }
 `
 
 const MenuLogo = styled('div')`
@@ -182,7 +224,7 @@ const MenuLogo = styled('div')`
   font-size: 24px;
   line-height: 24px;
   letter-spacing: 0.15px;
-  color: ${(props) => (props.theme.palette.mode === 'light' ? '#fff' : '#fff')};
+  color: ${(props) => (props.theme.palette.mode === 'light' ? '#3AA1AF' : '#fff')};
   height: 150px;
   @media screen and (max-height: 800px) {
     height: 100px;
@@ -199,8 +241,31 @@ const MenuLogo = styled('div')`
     }
   }
 `
+
+const NewChatButton = styled(Button)`
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: start;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  span {
+    color: #fff;
+  }
+  &.active {
+    background: ${(props) => (props.theme.palette.mode === 'light' ? '#3AA1AF' : '#fff')};
+    border: ${(props) => (props.theme.palette.mode === 'light' ? '1px solid #fff' : '1px solid #3AA1AF')};
+    .MuiListItemIcon-root {
+      color: ${(props) => (props.theme.palette.mode === 'light' ? '#fff' : '#3AA1AF')};
+    }
+    span {
+        color: ${(props) => (props.theme.palette.mode === 'light' ? '#fff' : '#3AA1AF')};
+    }
+  }
+`
 const TopList = styled(List)`
   padding: 0;
+
 `
 const SecondLevelList = styled(List)`
   padding: 0;
@@ -358,7 +423,7 @@ export const MenuDrawer = ({
             }
         })
     }
-
+    const defaultItem =  getRouteEntry({label: "New Crunch", route: '/', icon: <AddIcon/>, id: 'menu__home'});
     const menuItemClick = (menuItem: MenuItem) => {
         if (menuItem.children) {
             toggleSubMenu(menuItem)
@@ -369,7 +434,6 @@ export const MenuDrawer = ({
         }
         toggleSubMenu(undefined)
     }
-    console.log(menuItems)
     return (
         <div>
             <SecondLevelDrawer
@@ -389,20 +453,30 @@ export const MenuDrawer = ({
                     {/*logo*/}
                     <span>{state.open ? projectTitle : 'RC AI'}</span>
                 </MenuLogo>
+                <NewChatButton
+                    className={`${openOrClosedClassName} ${menuItemIsActive(defaultItem) ? 'active' : ''}`}
+                    onClick={() => menuItemClick(defaultItem)}
+                >
+                    <MenuDrawerListItemIcon>{defaultItem.icon}
+                    </MenuDrawerListItemIcon>
+                    <span>{defaultItem.label}</span>
+                </NewChatButton>
                 <TopList>
-                    {menuItems.map((menuItem) => (
+                    {menuItems.map((menuItem, index) => (
                         <ListItem
                             id={menuItem.id}
                             key={menuItem.key}
                             className={`${openOrClosedClassName} ${menuItemIsActive(menuItem) ? 'active' : ''}`}
                             onClick={() => menuItemClick(menuItem)}
                         >
+
                             <MenuDrawerListItemIcon
                                 className={`${openOrClosedClassName} ${menuItemIsActive(menuItem) ? 'active' : ''}`}
                             >
                                 {menuItem.icon}
                             </MenuDrawerListItemIcon>
                             <MenuDrawerListItemText primary={menuItem.label}/>
+
                         </ListItem>
                     ))}
                     {chatMenuItems.map((menuItem) => (

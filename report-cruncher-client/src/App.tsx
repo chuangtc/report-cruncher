@@ -17,7 +17,7 @@ const AppContainer = styled('div')`
 `
 const AppBackgroundContainer = styled('div')`
   position: fixed;
-  background: ${(props) => (props.theme.palette.mode === 'light' ? '#F6F6F9' : '#3B3F44')};
+  background: ${(props) => (props.theme.palette.mode === 'light' ? '#F6F6F9' : '#ffff')};
   z-index: -1;
   inset: 0;
   overflow: hidden;
@@ -36,7 +36,7 @@ export const AppCruncher = () => {
                     <Route path="/" element={<PageLayoutComponent/>}>
                         <Route index element={<HomePage/>}/>
                         <Route path="user" element={<UserSettingsPage/>}/>
-                        <Route path="chat" element={<ChatPage/>}/>
+                        <Route path="chat/:id" element={<ChatPage/>}/>
                         <Route path="*" element={<HomePage/>}/>
                     </Route>
                 </Routes>
