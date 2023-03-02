@@ -52,8 +52,7 @@ def dataloader() -> Response:
 
         # get the completion from prompt 
         _text = execute(extracted_text)
-        # store the completion text into radis
-        
+        # store the completion text into radis     
 
 
         payload = {"success": True, "text": _text}
