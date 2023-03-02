@@ -99,5 +99,5 @@ python prepare_data_gpt3_bert.py
 ```
 
 ### Data Location
-The data is saved at `out-data/`. <br/>
+The data is saved at `data-bert/`. <br/>
 Processed data should be at this location.
