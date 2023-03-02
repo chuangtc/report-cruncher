@@ -1,5 +1,7 @@
 poetry.lock
 
+.DS_Store
+
 .vscode
 
 report_cruncher/config/__pycache__/
