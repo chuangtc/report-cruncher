@@ -43,16 +43,20 @@ def dataloader() -> Response:
         file.save(file_path)
 
         # extract information from PDF
-        exracted_text = read_pdf(file_path)
+        extracted_text = read_pdf(file_path)
 
         # make call to openAI
         # get the embadding
-        _em = execute(exracted_text)
-
+        # _em = execute(extracted_text)
         # store the embadding into radis
 
+        # get the completion from prompt 
+        _text = execute(extracted_text)
+        # store the completion text into radis
+        
 
-        payload = {"success": True}
+
+        payload = {"success": True, "text": _text}
         response = Response(
             response=json.dumps(payload), status=200, mimetype="application/json"
         )
