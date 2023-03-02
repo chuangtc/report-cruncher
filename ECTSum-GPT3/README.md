@@ -9,20 +9,17 @@ Long Paper Accepted at the <b> EMNLP 2022 Main Conference! </b> <br />
 The <b> <i> ECTSum </b> </i> dataset can be found under the `data` folder.
 
 ## Proposed ECTSum dataset
-|Dataset |# Docs.|Coverage|Density|Compression || # Tokens |
-|        |       |        |       |  Ratio     |Doc. | Summary |
-|-----|--------|
-|Apple|3       |
-|Egg  |12      |
 
-Dataset # Docs. Coverage Density Compression # Tokens
-Ratio Doc. Summary
-Arxiv/PubMed 346,187 0.87 3.94 31.17 5179.22 257.44
-BillSum 23,455 - 4.12 13.64 1813.0 207.7
-BigPatent 1,341,362 0.86 2.38 36.84 3629.04 116.67
-GovReport 19,466 - 7.60 19.01 9409.4 553.4
-BookSum Chapters 12,293 0.78 1.69 15.97 5101.88 505.32
-ECTSum 2,425 0.85 2.43 103.67 2916.44 49.23
+|Dataset     | # Docs. | Coverage|Density|Compression | # Tokens Doc.| # Tokens Summary|
+|------------|---------|---------|-------|------------|---------|----------|
+|Arxiv/PubMed|346,187  | 0.87    |3.94   |  31.17     | 5179.22 |257.44    |
+|BillSum     |23,455   |   _     |4.12   |  13.64     | 1813.0  |207.7     |
+|BigPatent   |1,341,362| 0.86    |2.38   |  36.84     | 3629.04 |116.67    |
+|GovReport   |19,466   |   _     |19.01  |  19.01     | 9409.4  |553.4     |
+|BookSum     |12,293   | 0.78    |1.69   |  15.97     | 5101.88 |505.32    |
+|------------|---------|---------|-------|------------|---------|----------|
+|ECTSum      |2,425    | 0.85    |2.43   | 103.67     | 2916.44 | 49.23    |
+
 
 ## Codes
 Codes and instructions for our proposed model <b> <i> ECT-BPS </b> </i> can be found under `codes/ECT-BPS` <br />
