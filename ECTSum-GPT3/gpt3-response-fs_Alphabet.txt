@@ -1,0 +1,19 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "We are pleased to announce that we have delivered over $1.5 billion in net income for the first quarter of 2021.\nWe are pleased to announce that we have delivered over $1.5 billion in net income for the first quarter of 2021.\nWe are pleased to announce that we have delivered over $1.5 billion in net income for the first quarter of 2021.\nWe are pleased to announce that we have delivered over $1.5 billion in net income for the first quarter of 2021.\nWe are pleased to announce that we have delivered over $1.5 billion in net income for the first quarter of 2021.\nWe are pleased to announce that we have delivered over $1.5 billion in net income for the first quarter of 2021.\nWe are pleased to announce that we have delivered over $1.5 billion in net income for the first quarter of 2021.\nWe are pleased to announce that we have delivered over $1.5 billion in net income for the first quarter of 2021.\nWe are pleased to announce that we have delivered over $1.5 billion in net income for the first quarter of 2021.\nWe are pleased to announce that we have delivered over $1.5 billion in net income for the first quarter"
+    }
+  ],
+  "created": 1677740868,
+  "id": "cmpl-6pXKWpUYVR2gHjigqdGsQwIZZkEH5",
+  "model": "ada:ft-tpisoftware-2023-03-01-00-10-20",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 256,
+    "prompt_tokens": 10,
+    "total_tokens": 266
+  }
+}

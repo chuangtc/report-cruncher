@@ -1,0 +1,2048 @@
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+
+FORM 10Q  
+
+(Mark One)
+☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the quarterly period ended March 31, 2022
+OR
+☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the transition period from  to 
+Commission file number: 00137580  
+
+Alphabet Inc.  
+(Exact name of registrant as specified in its charter)
+
+Delaware 611767919
+(State or other jurisdiction of incorporation or organization) (I.R.S. Employer Identification Number)
+1600 Amphitheatre Parkway
+Mountain View , CA 94043
+(Address of principal executive offices, including zip code)
+(650) 2530000
+(Registrant's telephone number, including area code)
+Securities registered pursuant to Section 12(b) of the Act:
+Title of each class Trading Symbol(s) Name of each exchange on which registered
+Class A Common Stock, $0.001 par value GOOGL Nasdaq Stock Market LLC
+(Nasdaq Global Select Market)
+Class C Capital Stock, $0.001 par value GOOG Nasdaq Stock Market LLC
+(Nasdaq Global Select Market)
+
+Indicate by check mark whether the registrant: (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities 
+Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such 
+reports), and (2) has been subject to such filing requirements for the past 90 days.    Yes  ☒    No  ☐
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted 
+pursuant to Rule 405 of Regulation ST (§232.405 of this chapter) during the preceding 12 months (or for such shorter period 
+that the registrant was required to submit such files).    Yes  ☒    No  ☐
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a nonaccelerated filer, a smaller 
+reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller 
+reporting company,” and "emerging growth company" in Rule 12b2 of the Exchange Act.
+Large accelerated filer ☒  Accelerated filer ☐
+Nonaccelerated filer ☐ Smaller reporting company ☐
+Emerging growth company ☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for 
+complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.                          
+☐
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b2 of the Exchange Act).  Yes  ☐    No  
+☒
+As of April 19, 2022 , there were 300,763,622  shares of Alphabet’s Class A stock outstanding, 44,359,838  shares of Alphabet's 
+Class B stock outstanding, and 313,376,417  shares of Alphabet's Class C  stock outstanding.Alphabet Inc.
+Form 10Q
+For the Quarterly Period Ended March 31, 2022  
+TABLE OF CONTENTS
+  Page No.
+Note About ForwardLooking Statements 3
+PART I. FINANCIAL INFORMATION
+Item 1 Financial Statements 5
+Consolidated Balance Sheets   December 31, 2021  and March 31, 2022 5
+Consolidated Statements of Income   Three Months Ended March 31 , 2021  and 2022 6
+Consolidated Statements of Comprehensive Income   Three Months Ended March 31 , 2021  
+and 20227
+Consolidated Statements of Stockholders' Equity   Three Months Ended March 31 , 2021  and 
+20228
+Consolidated Statements of Cash Flows  Three Months Ended March 31 , 2021  and 2022 9
+Notes to Consolidated Financial Statements 10
+Item 2 Management’s Discussion and Analysis of Financial Condition and Results of Operations 30
+Item 3 Quantitative and Qualitative Disclosures About Market Risk 42
+Item 4 Controls and Procedures 42
+PART II. OTHER INFORMATION
+Item 1 Legal Proceedings 43
+Item 1A Risk Factors 43
+Item 2 Unregistered Sales of Equity Securities and Use of Proceeds 43
+Item 6 Exhibits 44
+Signature 45Table of Contents Alphabet Inc.
+2Note About ForwardLooking Statements
+This Quarterly Report on Form 10Q contains forwardlooking statements within the meaning of the Private 
+Securities Litigation Reform Act of 1995. These include, among other things, statements regarding:
+the ongoing effect  of the novel coronavirus pandemic ("COVID19") , including its macroeconomic effects on 
+our business, operations, and financial results; 
+the growth of our business and revenues and our expectations about the factors that influence our success 
+and trends in our business;
+fluctuations in our revenue growth rate and operating margin and various factors contributing to such 
+fluctuations;
+our expectation that the continuing shift from an offline to online world will continue to benefit our business;
+our expectation that the portion of our revenues that we derive from nonadvertising revenues will continue 
+to increase and may affect our margins;
+our expectation that our traffic acquisition costs (TAC) and the associated TAC rate will fluctuate, which 
+could affect our overall margins;
+our expectation that our monetization trends will fluctuate, which could affect our revenues and margins;
+fluctuations in our revenue growth, as well as the change in paid clicks and costperclick and the change in 
+impressions and costperimpression, and various factors contributing to such fluctuations;
+our expectation that we will continue to periodically review, refine, and update our methodologies for 
+monitoring, gathering, and counting the number of paid clicks and impressions;
+our expectation that our results will be affected by our performance in international markets as users in 
+developing economies increasingly come online;
+our expectation that our foreign exchange risk management program will not fully offset our net exposure to 
+fluctuations in foreign currency exchange rates;
+the expected variability of gains and losses related to hedging activities under our foreign exchange risk 
+management program;
+the amount and timing of revenue recognition from customer contracts with commitments for performance 
+obligations, including our estimate of the remaining amount of commitments and when we expect to 
+recognize revenue;
+fluctuations in our capital expenditures;
+our plans to continue to invest in new businesses, products, services and technologies, systems, land and 
+buildings for data centers and offices, and infrastructure, as well as to continue to invest in acquisitions and 
+strategic investments;
+our pace of hiring and our plans to provide competitive compensation programs;
+our expectation that our cost of revenues, research and development (R&D) expenses, sales and marketing 
+expenses, and general and administrative expenses may increase in amount and/or may increase as a 
+percentage of revenues and may be affected by a number of factors;
+estimates of our future compensation expenses;
+our expectation that our other income (expense), net (OI&E), will fluctuate in the future, as it is largely 
+driven by market dynamics;
+fluctuations in our effective tax rate;
+seasonal fluctuations in internet usage and advertiser expenditures, underlying business trends such as 
+traditional retail seasonality, which are likely to cause fluctuations in our quarterly results;
+the sufficiency of our sources of funding;
+our potential exposure in connection with new and pending investigations, proceedings, and other 
+contingencies;Table of Contents Alphabet Inc.
+3the sufficiency and timing of our proposed remedies in response to decisions from the European 
+Commission (EC) and other regulators and governmental entities;
+our expectations regarding the timing, design, and ongoing phased implementation of our new global 
+enterprise resource planning (ERP) system;
+the expected timing, amount, and effect of Alphabet Inc.'s share repurchases;
+our longterm sustainability and diversity goals;
+the unpredictability of the ongoing broader economic effects resulting from the  war in Ukraine  on our future 
+financial results ;
+as well as other statements regarding our future operations, financial condition and prospects, and business 
+strategies. Forwardlooking statements may appear throughout this report and other documents we file with the 
+Securities and Exchange Commission (SEC), including without limitation, the following sections: Part I, Item 2, 
+"Management's Discussion and Analysis of Financial Condition and Results of Operations" in this Quarterly Report 
+on Form 10Q and Part I, Item 1A, “Risk Factors”  in our Annual Report on Form 10K for the fiscal year ended 
+December 31, 2021 . Forwardlooking statements generally can be identified by words such as "anticipates," 
+"believes," "estimates," "expects," "intends," "plans," "predicts," "projects," "will be," "will continue," "may," "could," 
+"will likely result," and similar expressions. These forwardlooking statements are based on current expectations and 
+assumptions that are subject to risks and uncertainties, which could cause our actual results to differ materially from 
+those reflected in the forwardlooking statements. Factors that could cause or contribute to such differences include, 
+but are not limited to, those discussed in this Quarterly Report on Form 10Q, and in particular, the risks discussed 
+in Part I, Item 1A, "Risk Factors" in our Annual Report on Form 10K for the fiscal year ended December 31, 2021 , 
+and those discussed in other documents we file with the SEC. We undertake no obligation to revise or publicly 
+release the results of any revision to these forwardlooking statements, except as required by law. Given these risks 
+and uncertainties, readers are cautioned not to place undue reliance on such forwardlooking statements.
+ As used herein, "Alphabet," "the company," "we," "us," "our," and similar terms include Alphabet Inc. and its 
+subsidiaries, unless the context indicates otherwise.
+ "Alphabet," "Google," and other trademarks of ours appearing in this report are our property. This report 
+contains additional trade names and trademarks of other companies. We do not intend our use or display of other 
+companies' trade names or trademarks to imply an endorsement or sponsorship of us by such companies, or any 
+relationship with any of these companies.Table of Contents Alphabet Inc.
+4PART I. FINANCIAL INFORMATION
+ITEM 1. FINANCIAL STATEMENTS
+Alphabet Inc.
+CONSOLIDATED BALANCE SHEETS
+(in millions, except share amounts which are reflected in thousands, and par value per share amounts)
+As of 
+December 31, 2021As of
+March 31, 2022
+(unaudited)
+Assets
+Current assets:
+Cash and cash equivalents $ 20,945 $ 20,886 
+Marketable securities  118,704  113,084 
+Total cash, cash equivalents, and marketable securities  139,649  133,970 
+Accounts receivable, net  39,304  34,703 
+Income taxes receivable, net  966  919 
+Inventory  1,170  1,369 
+Other current assets  7,054  6,892 
+Total current assets  188,143  177,853 
+Nonmarketable securities  29,549  30,544 
+Deferred income taxes  1,284  1,388 
+Property and equipment, net  97,599  104,218 
+Operating lease assets  12,959  12,992 
+Intangible assets, net  1,417  1,313 
+Goodwill  22,956  23,010 
+Other noncurrent assets  5,361  5,778 
+Total assets $ 359,268 $ 357,096 
+Liabilities and Stockholders’ Equity
+Current liabilities:
+Accounts payable $ 6,037 $ 3,436 
+Accrued compensation and benefits  13,889  9,803 
+Accrued expenses and other current liabilities  31,236  33,051 
+Accrued revenue share  8,996  8,116 
+Deferred revenue  3,288  3,198 
+Income taxes payable, net  808  4,344 
+Total current liabilities  64,254  61,948 
+Longterm debt  14,817  14,791 
+Deferred revenue, noncurrent  535  499 
+Income taxes payable, noncurrent  9,176  9,406 
+Deferred income taxes  5,257  2,843 
+Operating lease liabilities  11,389  11,363 
+Other longterm liabilities  2,205  2,242 
+Total liabilities  107,633  103,092 
+Contingencies (Note 9)
+Stockholders’ equity:
+Preferred stock, $0.001  par value per share, 100,000  shares authorized; 
+no shares issued and outstanding 0  0 
+Class A, Class B, and Class C stock and additional paidin capital, 
+$0.001  par value per share: 15,000,000  shares authorized (Class A 
+9,000,000 , Class B 3,000,000 , Class C 3,000,000 ); 662,121  (Class A 
+300,737 , Class B 44,665 , Class C 316,719 ) and 658,763  (Class A 
+300,763 , Class B 44,404 , Class C 313,596 ) shares issued and 
+outstanding 61,774  62,832 
+Accumulated other comprehensive income (loss)  (1,623)  (4,049) 
+Retained earnings  191,484  195,221 
+Total stockholders’ equity  251,635  254,004 
+Total liabilities and stockholders’ equity $ 359,268 $ 357,096 
+See accompanying notes.Table of Contents Alphabet Inc.
+5Alphabet Inc.
+CONSOLIDATED STATEMENTS OF INCOME
+(in millions, except per share amounts; unaudited)
+Three Months Ended
+March 31,
+2021 2022
+Revenues $ 55,314 $ 68,011 
+Costs and expenses:
+Cost of revenues  24,103  29,599 
+Research and development  7,485  9,119 
+Sales and marketing  4,516  5,825 
+General and administrative  2,773  3,374 
+Total costs and expenses  38,877  47,917 
+Income from operations  16,437  20,094 
+Other income (expense), net  4,846  (1,160) 
+Income before income taxes  21,283  18,934 
+Provision for income taxes  3,353  2,498 
+Net income $ 17,930 $ 16,436 
+Basic net income per share of Class A, Class B, and Class C stock $ 26.63 $ 24.90 
+Diluted net income per share of Class A, Class B, and Class C stock $ 26.29 $ 24.62 
+See accompanying notes.Table of Contents Alphabet Inc.
+6Alphabet Inc.
+CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(in millions; unaudited)
+Three Months Ended
+ March 31,
+ 2021 2022
+Net income $ 17,930 $ 16,436 
+Other comprehensive loss:
+Change in foreign currency translation adjustment  (423)  39 
+Availableforsale investments:
+Change in net unrealized gains (losses)  (488)  (2,478) 
+Less: reclassification adjustment for net (gains) losses included in net 
+income  11  148 
+Net change, net of income tax benefit (expense) of $135  and $633  (477)  (2,330) 
+Cash flow hedges:
+Change in net unrealized gains (losses)  179  114 
+Less: reclassification adjustment for net (gains) losses included in net 
+income  85  (249) 
+Net change, net of income tax benefit (expense) of $(50)  and $44  264  (135) 
+Other comprehensive loss  (636)  (2,426) 
+Comprehensive income $ 17,294 $ 14,010 
+See accompanying notes.Table of Contents Alphabet Inc.
+7Alphabet Inc.
+CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY
+(In millions, except share amounts which are reflected in thousands; unaudited)
+ Three Months Ended March 31, 2021
+ Class A, Class B, Class C Stock 
+and Additional PaidIn CapitalAccumulated
+Other
+Comprehensive
+Income (Loss)Retained
+EarningsTotal
+Stockholders’
+Equity  Shares    Amount    
+Balance as of December 31, 2020  675,222 $ 58,510 $ 633 $ 163,401 $ 222,544 
+Stock issued  1,569  6  0  0  6 
+Stockbased compensation expense  0  3,788  0  0  3,788 
+Tax withholding related to vesting of 
+restricted stock units and other  0  (2,234)  0  0  (2,234) 
+Repurchases of stock  (5,697)  (644)  0  (10,751)  (11,395) 
+Sale of interest in consolidated 
+entities  0  10  0  0  10 
+Net income  0  0  0  17,930  17,930 
+Other comprehensive income (loss)  0  0  (636)  0  (636) 
+Balance as of March 31, 2021  671,094 $ 59,436 $ (3) $ 170,580 $ 230,013 
+ Three Months Ended March 31, 2022
+ Class A, Class B, Class C Stock 
+and Additional PaidIn CapitalAccumulated
+Other
+Comprehensive
+Income (Loss)Retained
+EarningsTotal
+Stockholders’
+Equity  Shares    Amount    
+Balance as of December 31, 2021  662,121 $ 61,774 $ (1,623) $ 191,484 $ 251,635 
+Stock issued  1,555  7  0  0  7 
+Stockbased compensation expense  0  4,547  0  0  4,547 
+Tax withholding related to vesting of 
+restricted stock units and other  0  (2,895)  0  0  (2,895) 
+Repurchases of stock  (4,913)  (601)  0  (12,699)  (13,300) 
+Net income  0  0  0  16,436  16,436 
+Other comprehensive income (loss)  0  0  (2,426)  0  (2,426) 
+Balance as of March 31, 2022  658,763 $ 62,832 $ (4,049) $ 195,221 $ 254,004 
+See accompanying notes.Table of Contents Alphabet Inc.
+8Alphabet Inc.
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions; unaudited)
+Three Months Ended
+March 31,
+2021 2022
+Operating activities
+Net income $ 17,930 $ 16,436 
+Adjustments:
+Depreciation and impairment of property and equipment  2,525  3,591 
+Amortization and impairment of intangible assets  228  191 
+Stockbased compensation expense  3,745  4,504 
+Deferred income taxes  1,100  (2,090) 
+(Gain) loss on debt and equity securities, net  (4,751)  1,437 
+Other  (255)  140 
+Changes in assets and liabilities, net of effects of acquisitions:
+Accounts receivable  2,794  4,364 
+Income taxes, net  785  3,820 
+Other assets  7  (776) 
+Accounts payable  (982)  (2,373) 
+Accrued expenses and other liabilities  (3,530)  (3,216) 
+Accrued revenue share  (444)  (828) 
+Deferred revenue  137  (94) 
+Net cash provided by operating activities  19,289  25,106 
+Investing activities
+Purchases of property and equipment  (5,942)  (9,786) 
+Purchases of marketable securities  (36,426)  (28,462) 
+Maturities and sales of marketable securities  39,248  29,779 
+Purchases of nonmarketable securities  (646)  (776) 
+Maturities and sales of nonmarketable securities  19  12 
+Acquisitions, net of cash acquired, and purchases of intangible assets  (1,666)  (173) 
+Other investing activities  30  355 
+Net cash used in investing activities  (5,383)  (9,051) 
+Financing activities
+Net payments related to stockbased award activities  (2,184)  (2,916) 
+Repurchases of stock  (11,395)  (13,300) 
+Proceeds from issuance of debt, net of costs  900  16,422 
+Repayments of debt  (937)  (16,420) 
+Proceeds from sale of interest in consolidated entities, net  10  0 
+Net cash used in financing activities  (13,606)  (16,214) 
+Effect of exchange rate changes on cash and cash equivalents  (143)  100 
+Net increase (decrease) in cash and cash equivalents  157  (59) 
+Cash and cash equivalents at beginning of period  26,465  20,945 
+Cash and cash equivalents at end of period $ 26,622 $ 20,886 
+See accompanying notes.Table of Contents Alphabet Inc.
+9Alphabet Inc.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1.    Summary of Significant Accounting Policies  
+Nature of Operations
+Google was incorporated in California in September 1998 and reincorporated in the State of Delaware in 
+August 2003. In 2015, we implemented a holding company reorganization, and as a result, Alphabet Inc. 
+("Alphabet") became the successor issuer to Google.
+We generate revenues by delivering relevant, costeffective online advertising ; cloudbased solutions that 
+provide customers with infrastructure and platform services and collaboration tools; sales of other products and 
+services, such as apps and inapp purchases, digital content products, and hardware; and fees received for 
+subscriptionbased products such as YouTube Premium and YouTube TV. 
+Basis of Consolidation
+The consolidated financial statements of Alphabet include the accounts of Alphabet and entities consolidated 
+under the variable interest and voting models. All intercompany balances and transactions have been eliminated.  
+Unaudited Interim Financial Information
+These unaudited interim consolidated financial statements have been prepared in accordance with generally 
+accepted accounting principles in the United States (GAAP), and in our opinion, include all adjustments of a normal 
+recurring nature necessary for fair financial statement presentation.  Interim results are not necessarily indicative of 
+the results to be expected for the full year ending December 31, 2022 . We have made estimates and assumptions 
+that affect the amounts reported and disclosed in the financial statements and the accompanying notes. Actual 
+results could differ materially from these estimates.
+These consolidated financial statements and other information presented in this Form 10Q should be read in 
+conjunction with the consolidated financial statements and the related notes included in our Annual Report on Form 
+10K for the fiscal year ended December 31, 2021  filed with the SEC.
+Note 2.    Revenues  
+Revenue Recognition
+The following table presents revenues disaggregated by type (in millions) . 
+Three Months Ended
+March 31,
+2021 2022
+Google Search & other $ 31,879 $ 39,618 
+YouTube ads  6,005  6,869 
+Google Network  6,800  8,174 
+Google advertising  44,684  54,661 
+Google other  6,494  6,811 
+Google Services total  51,178  61,472 
+Google Cloud  4,047  5,821 
+Other Bets  198  440 
+Hedging gains (losses)  (109)  278 
+Total revenues $ 55,314 $ 68,011 Table of Contents Alphabet Inc.
+10The following table presents  revenues disaggregated by geography, based on the addresses of our customers 
+(in millions):
+ Three Months Ended
+March 31,
+ 2021 2022
+United States $ 25,032  45 % $ 31,733  47 %
+EMEA(1) 17,031  31  20,317  30 
+APAC(1) 10,455  19  11,841  17 
+Other Americas(1) 2,905  5  3,842  6 
+Hedging gains (losses)  (109)  0  278  0 
+Total revenues $ 55,314  100 % $ 68,011  100 %
+(1) Regions represent Europe, the Middle East, and Africa (EMEA); AsiaPacific (APAC); and Canada and Latin America 
+("Other Americas") .
+Revenue Backlog and Deferred Revenues
+As of March 31, 2022 , we had $50.5 billion  of remaining performance obligations (“revenue backlog”), primarily 
+related to Google Cloud, and expect to recogniz e approximately half of this amount as revenues over the next 24 
+months with the remaining to be recognized thereafter. Our revenue backlog represents commitments in customer 
+contracts for future services that have not yet been recognized as revenues.  The amount and timing of revenue 
+recognition for these  commitments is largely driven by when our customers utilize services and our ability to deliver 
+in accordance with relevant contract terms,  which could affect our estimate of revenue backlog and when we expect 
+to recognize such as revenues. Revenue backlog includes related deferred revenue currently recorded as well as 
+amounts that will be invoiced in future periods and excludes contracts with an original expected term of one year or 
+less and cancellable contracts.
+We record deferred revenues when cash payments are received or due in advance of our performance, 
+including amounts which are refundable. Deferred revenues primarily relate to Google Cloud and Google other. 
+Total deferred revenue as of December 31, 2021  was $3.8 billion , of which $1.4 billion  was recognized as revenues 
+during the three months ended March 31, 2022 .
+Note 3.    Financial Instruments
+Debt  Securiti es
+We classify our marketable debt securities, which are accounted for as availableforsale, within Level 2 in the 
+fair value hierarchy because we use quoted market prices to the extent available or alternative pricing sources and 
+models utilizing market observable inputs to determine fair value.
+For certain marketable debt securities, we have elected the fair value option for which changes in fair value 
+are recorded in other income (expense), net. The fair value option was elected for these securities to align with the 
+unrealized gains and losses from related derivative contracts. Unrealized net  losses  related to debt securities still 
+held where we have elected the fair value option were $35 million  and $236 million  as of December 31, 2021  and 
+March 31, 2022 , respectively. As of December 31, 2021  and March 31, 2022 , the fair value of these debt securities 
+was $4.7 billion  and $5.6 billion , respectively . 
+The following tables summarize debt securities, for which we did not elect the fair value option, by significant 
+investment categories (in millions):
+ As of December 31, 2021
+ Adjusted
+CostGross
+Unrealized
+GainsGross
+Unrealized
+LossesFair
+ValueCash and 
+Cash
+EquivalentsMarketable
+Securities
+Level 2:
+Time deposits(1)$ 5,133 $ 0 $ 0 $ 5,133 $ 5,133 $ 0 
+Government bonds  53,288  258  (238)  53,308  5  53,303 
+Corporate debt securities  35,605  194  (223)  35,576  12  35,564 
+Mortgagebacked and assetbacked 
+securities  18,829  96  (112)  18,813  0  18,813 
+Total $ 112,855 $ 548 $ (573) $ 112,830 $ 5,150 $ 107,680 Table of Contents Alphabet Inc.
+11 As of March 31, 2022
+ Adjusted
+CostGross
+Unrealized
+GainsGross
+Unrealized
+LossesFair
+ValueCash and 
+Cash
+EquivalentsMarketable
+Securities
+Level 2:
+Time deposits(1)$ 4,690 $ 0 $ 0 $ 4,690 $ 4,690 $ 0 
+Government bonds  50,485  58  (1,365)  49,178  0  49,178 
+Corporate debt securities  36,621  30  (1,043)  35,608  10  35,598 
+Mortgagebacked and assetbacked 
+securities  18,852  6  (594)  18,264  0  18,264 
+Total $ 110,648 $ 94 $ (3,002) $ 107,740 $ 4,700 $ 103,040 
+(1)The majority of our time deposits are domestic deposits.
+We determine realized gains or losses on the sale or extinguishment of debt securities on a specific 
+identification method. We recognized gross realized gains of $135 million  and $40 million  for the three months 
+ended March 31, 2021  and 2022 , respectively. We recognized gross realized losses of $136 million  and $271 million  
+for the three months ended March 31, 2021  and 2022 , respectively. We reflect these gains and losses as a 
+component of other income (expense), net.
+The following table summarizes the estimated fair value of  investments in marketable debt securities by stated 
+contractual maturity dates (in millions):
+As of
+March 31, 2022
+Due in 1 year or less $ 15,516 
+Due in 1 year through 5 years  75,938 
+Due in 5 years through 10 years  4,755 
+Due after 10 years  12,245 
+Total $ 108,454 
+The following tables present fair values and gross unrealized losses recorded to AOCI, aggregated by 
+investment category and the length of time that individual securities have been in a  continuous loss position (in 
+millions):
+ As of December 31, 2021
+ Less than 12 Months 12 Months or Greater Total
+ Fair ValueUnrealized
+Loss Fair ValueUnrealized
+Loss Fair ValueUnrealized
+Loss
+Government bonds $ 32,843 $ (236) $ 71 $ (2) $ 32,914 $ (238) 
+Corporate debt securities  22,737  (152)  303  (5)  23,040  (157) 
+Mortgagebacked and assetbacked 
+securities  11,502  (106)  248  (6)  11,750  (112) 
+Total $ 67,082 $ (494) $ 622 $ (13) $ 67,704 $ (507) 
+ As of March 31, 2022
+ Less than 12 Months 12 Months or Greater Total
+ Fair ValueUnrealized
+Loss Fair ValueUnrealized
+Loss Fair ValueUnrealized
+Loss
+Government bonds $ 37,948 $ (1,203) $ 3,909 $ (162) $ 41,857 $ (1,365) 
+Corporate debt securities  27,403  (879)  2,572  (164)  29,975  (1,043) 
+Mortgagebacked and assetbacked 
+securities  15,415  (532)  1,101  (62)  16,516  (594) 
+Total $ 80,766 $ (2,614) $ 7,582 $ (388) $ 88,348 $ (3,002) 
+During the  three months ended March 31, 2021  and 2022 , we did not recognize significant credit losses and 
+the ending allowance balances for credit losses were immaterial as of December 31, 2021  and March 31, 2022 . See 
+Note 6  for further details on other income (expense), net.Table of Contents Alphabet Inc.
+12Equity Investments
+The following discusses our marketable equity securities, nonmarketable equity securities, gains and losses 
+on marketable and nonmarketable equity securities, as well as our equity securities accounted for under the equity 
+method.
+Our marketable equity securities are publicly traded stocks or funds measured at fair value and classified 
+within Level 1 and 2 in the fair value hierarchy because we use quoted prices for identical assets in active markets 
+or inputs that are based upon quoted prices for similar instruments in active markets.
+Our nonmarketable equity securities are investments in privately held companies without readily determinable 
+market values. The carrying value of our nonmarketable equity securities is adjusted to fair value upon observable 
+transactions for identical or similar investments of the same issuer or impairment (referred to as the measurement 
+alternative). Nonmarketable equity securities that have been remeasured during the period based on observable 
+transactions are classified within Level 2 or Level 3 in the fair value hierarchy because we estimate the value based 
+on valuation methods which may include a combination of the observable transaction price at the transaction date 
+and other unobservable inputs including  volatility, rights, and obligations of the securities we hold. The fair value of 
+nonmarketable equity securities that have been remeasured due to impairment are classified within Level 3.
+Gains and losses on marketable and nonmarketable equity securities
+Gains and losses reflected in other income (expense), net, for  marketable and nonmarketable equity 
+securities are summarized below (in millions):
+Three Months Ended
+March 31,
+2021 2022
+Net gain (loss) on equity securities sold during the period $ 201 $ (74) 
+Net unrealized gain (loss) on equity securities held as of the end of the period  4,636  (996) 
+Total gain (loss) recognized in other income (expense), net $ 4,837 $ (1,070) 
+In the table above, net gain (loss) on equity securities sold during the period reflects the difference between the 
+sale proceeds and the carrying value of the equity securities at the beginning of the period or the purchase date, if 
+later. 
+Cumulative net gains (losses) on equity securities sold during the period, which is summarized in the following 
+table (in millions), represents the total net gains (losses) recognized after the initial purchase date of the equity 
+security. While these net gains may have been reflected in periods prior to the period of sale, we believe they are 
+important supplemental information as they reflect the economic net gains on the securities sold during the period. 
+Cumulative net gains are calculated as the difference between the sale price and the initial purchase price for the 
+equity security sold during the period.
+Equity Securities Sold
+Three Months Ended
+March 31,
+ 2021 2022
+Total sale price $ 725 $ 364 
+Total initial cost  357  260 
+Cumulative net gains $ 368 $ 104 Table of Contents Alphabet Inc.
+13Carrying value of marketable and nonmarketable equity securities
+The carrying value is measured as the total initial cost plus the cumulative net gain (loss).  The carrying values 
+for marketable and nonmarketable equity securities are summarized below (in millions):
+As of December 31, 2021
+Marketable 
+SecuritiesNonMarketable 
+Securities Total
+Total initial cost $ 4,211 $ 15,135 $ 19,346 
+Cumulative net gain (loss)(1) 3,587  12,436  16,023 
+Carrying value(2)$ 7,798 $ 27,571 $ 35,369 
+(1)Nonmarketable equity securities cumulative net gain (loss) is comprised of $14.1 billion  gains and $1.7 billion  losses 
+(including impairment).
+(2)The longterm portion of marketable equity securities (subject to longterm lockup restrictions) of $1.4 billion  is included 
+within other noncurrent assets.
+As of March 31, 2022
+Marketable 
+SecuritiesNonMarketable 
+Securities Total
+Total initial cost $ 4,549 $ 15,770 $ 20,319 
+Cumulative net gain (loss)(1) 1,586  12,882  14,468 
+Carrying value(2)$ 6,135 $ 28,652 $ 34,787 
+(1)Nonmarketable equity securities cumulative net gain (loss) is comprised of $14.9 billion  gains and $2.1 billion  losses 
+(including  impairment ).
+(2)The longterm portion of marketable equity securities (subject to longterm lockup restrictions) of $1.5 billion  is included 
+within other noncurrent assets.
+Marketable equity securities
+The following table summarizes marketable equity securities measured at fair value by significant investment 
+categories (in millions):
+ As of December 31, 2021 As of March 31, 2022
+ Cash and 
+Cash 
+EquivalentsMarketable
+SecuritiesCash and 
+Cash 
+EquivalentsMarketable
+Securities
+Level 1:
+Money market funds $ 7,499 $ 0 $ 7,820 $ 0 
+Marketable equity securities(1)(2) 0  7,447  0  5,877 
+ 7,499  7,447  7,820  5,877 
+Level 2:
+Mutual funds  0  351  0  258 
+Total $ 7,499 $ 7,798 $ 7,820 $ 6,135 
+(1)The balance as of December 31, 2021  includes investments that were reclassified from nonmarketable equity securities 
+following the commencement of public market trading of the issuers or acquisition by public entities (certain investments 
+are subject to shortterm lockup restrictions).  
+(2)As of December 31, 2021  and March 31, 2022  the longterm portion of marketable equity securities (subject to longterm 
+lockup restrictions) of $1.4 billion  and $1.5 billion , respectively, is included within other noncurrent assets.Table of Contents Alphabet Inc.
+14Nonmarketable equity securities
+The following is a  summary of unrealized gains and losses recorded in other income (expense), net, which are 
+included as adjustments to the carrying value of nonmarketable equity securities held as of the end of the period (in 
+millions):
+Three Months Ended
+March 31,
+2021 2022
+Unrealized gains on nonmarketable equity securities $ 4,678 $ 838 
+Unrealized losses on nonmarketable equity securities (including impairment)
+ (2)  (378) 
+Total unrealized gain (loss) recognized on nonmarketable equity 
+securities $ 4,676 $ 460 
+During the three months ended March 31, 2022 , included in the $28.7 billion  of nonmarketable equity 
+securities held as of the end of the period, $3.1 billion  were measured at fair value resulting in a net unrealized gain 
+of $0.5 billion .
+Equity securities accounted for under the Equity Method
+As of December 31, 2021  and March 31, 2022 , equity securities accounted for under the equity method had a 
+carrying value of approximately $ 1.5 billion  and $1.4 billion , respectively. Our share of gains and losses , including 
+impairments, are included as a component of other income (expense), net, in the Consolidated Statements of 
+Income.  See Note 6  for further details on other income (expense), net.
+Derivative Financial Instruments
+We enter into derivative instruments to manage risks relating to our ongoing business operations. The primary 
+risk managed with derivative instruments is foreign exchange risk. We use foreign currency contracts to reduce the 
+risk that our cash flows, earnings, and investment in foreign subsidiaries will be adversely affected by foreign 
+currency exchange rate fluctuations. We also enter into derivative instruments to partially offset our exposure to 
+other risks and enhance investment returns.
+We recognize derivative instruments as either assets or liabilities in the Consolidated Balance Sheets at fair 
+value and classify the derivatives primarily within Level 2 in the fair value hierarchy. We present our collar contracts 
+(an option strategy comprised of a combination of purchased and written options) at net fair values where both the 
+purchased and written options are with the same counterparty. For other derivative contracts, we present at gross 
+fair values. We primarily record changes in the fair value in the Consolidated Statements of Income as either other 
+income (expense), net, or revenues, or in the Consolidated Balance Sheets in AOCI, as discussed below.
+We enter into master netting arrangements, which reduce credit risk by permitting net settlement of 
+transactions with the same counterparty. Further, we enter into collateral security arrangements that provide for 
+collateral to be received or pledged when the net fair value of certain financial instruments fluctuates from 
+contractually established thresholds. Cash collateral received related to derivative instruments under our collateral 
+security arrangements are included in other current assets with a corresponding liability. Cash and noncash 
+collateral pledged related to derivative instruments under our collateral security arrangements are included in other 
+current assets.
+Cash Flow Hedges
+We designate foreign currency forward and option contracts (including collars) as cash flow hedges to hedge 
+certain f orecasted revenue transactions denominated in currencies other than the U.S. dollar. These contracts have 
+maturities of 24 months  or less.
+Cash flow hedge amounts included in the assessment of hedge effectiveness are deferred in AOCI and 
+subsequently reclassified to revenue when the hedged item is recognized in earnings. We exclude the change in 
+forward points and time value from our assessment of hedge effectiveness. The initial value of the excluded 
+component is amortized on a straightline basis over the life of the hedging instrument and recognized in revenues. 
+The difference between fair value changes of the excluded component and the amount amortized to revenues is 
+recorded in AOCI. If the hedged transactions become probable of not occurring, the corresponding amounts in AOCI 
+are reclassified to other income (expense), net in the period of dedesignation.
+As of March 31, 2022 , the net accumulated gain on our foreign currency cash flow hedges before tax effect 
+was $356 million , which is expected to be reclassified from AOCI into earnings within the next 12 months.Table of Contents Alphabet Inc.
+15Fair Value Hedges
+We designate foreign currency forward contracts as fair value hedges to hedge foreign currency risks for our 
+investments denominated in currencies other than the U.S. dollar. Fair value hedge amounts included in the 
+assessment of hedge effectiveness are recognized in other income (expense), net, along with the offsetting gains 
+and losses of the related hedged items. We exclude changes in forward points from the assessment of hedge 
+effectiveness and recognize changes in the excluded component in other income (expense), net.
+Net Investment Hedges
+We designate foreign currency forward contracts as net investment hedges to hedge the foreign currency risks 
+related to our investment in foreign subsidiaries. Net investment hedge amounts included in the assessment of 
+hedge effectiveness are recognized in AOCI along with the foreign currency translation adjustment. We exclude 
+changes in forward points from the assessment of hedge effectiveness and recognize changes in the excluded 
+component in other income (expense), net.
+Other Derivatives
+Other derivatives not designated as hedging instruments consist primarily of foreign currency forward contracts 
+that we use to hedge intercompany transactions and other monetary assets or liabilities denominated in currencies 
+other than the functional currency of a subsidiary. Gains and losses on these contracts, as well as the related costs, 
+are recognized in other income (expense), net, along with the foreign currency gains and losses on monetary assets 
+and liabilities. 
+We also use derivatives not designated as hedging instruments to manage risks relating to interest rates, 
+commodity prices, credit exposures and to enhance investment returns. Additionally, from time to time, we enter into 
+derivatives to hedge the market price risk on certain of our marketable equity securities. Gains (losses) arising from 
+these derivatives are reflected within the "other" component of other income (expense), net and the offsetting 
+recognized gains (losses) on the marketable equity securities are reflected within the gain (loss) on equity 
+securities, net component of other income (expense), net. See Note 6  for further details on other income (expense), 
+net.
+The gross notional amounts of  outstanding derivative instruments were as follows (in millions):
+As of December 31, 
+2021As of March 31, 
+2022
+Derivatives Designated as Hedging Instruments:
+Foreign exchange contracts
+    Cash flow hedges  $ 16,362 $ 17,817 
+    Fair value hedges $ 2,556 $ 2,438 
+    Net investment hedges $ 10,159 $ 9,933 
+Derivatives Not Designated as Hedging Instruments:
+Foreign exchange contracts $ 41,031 $ 42,338 
+Other contracts $ 4,275 $ 6,052 Table of Contents Alphabet Inc.
+16The fair values of outstanding derivative instruments were as follows (in millions):
+  As of December 31, 2021
+  Balance Sheet LocationFair Value of 
+Derivatives
+Designated as
+Hedging InstrumentsFair Value of
+Derivatives Not
+Designated as
+Hedging Instruments Total Fair Value
+Derivative Assets:
+Level 2:
+Foreign exchange 
+contractsOther current and noncurrent 
+assets $ 867 $ 42 $ 909 
+Other contracts Other current and noncurrent 
+assets  0  52  52 
+Total $ 867 $ 94 $ 961 
+Derivative Liabilities: 
+Level 2:
+Foreign exchange 
+contractsAccrued expenses and other 
+liabilities, current and noncurrent $ 8 $ 452 $ 460 
+Other contracts Accrued expenses and other 
+liabilities, current and noncurrent  0  121  121 
+Total $ 8 $ 573 $ 581 
+  As of March 31, 2022
+  Balance Sheet LocationFair Value of
+Derivatives
+Designated as
+Hedging InstrumentsFair Value of
+Derivatives Not
+Designated as
+Hedging Instruments Total Fair Value
+Derivative Assets:
+Level 2:
+Foreign exchange 
+contractsOther current and noncurrent 
+assets $ 705 $ 26 $ 731 
+Other contracts Other current and noncurrent 
+assets  0  76  76 
+Total $ 705 $ 102 $ 807 
+Derivative Liabilities: 
+Level 2:
+Foreign exchange 
+contractsAccrued expenses and other 
+liabilities, current and noncurrent $ 163 $ 404 $ 567 
+Other contracts Accrued expenses and other 
+liabilities, current and noncurrent  0  76  76 
+Total $ 163 $ 480 $ 643 Table of Contents Alphabet Inc.
+17The gains (losses) on derivatives in cash flow hedging and net investment hedging relationships recognized in 
+other comprehensive income ( OCI) are summarized below (in millions):
+ Gains (Losses) Recognized in OCI on 
+Derivatives Before Tax Effect
+Three Months Ended
+ March 31,
+2021 2022
+Derivatives in Cash Flow Hedging Relationship:
+Foreign exchange contracts
+Amount included in the assessment of effectiveness $ 162 $ 135 
+Amount excluded from the assessment of effectiveness  49  (15) 
+Derivatives in Net Investment Hedging Relationship:
+Foreign exchange contracts
+Amount included in the assessment of effectiveness  378  149 
+Total $ 589 $ 269 
+ The effect of derivative instruments on income is summarized below (in millions):
+ Gains (Losses) Recognized in Income
+Three Months Ended
+ March 31,
+2021 2022
+RevenuesOther income 
+(expense), net RevenuesOther income 
+(expense), net
+Total amounts presented in the Consolidated Statements 
+of Income in which the effects of cash flow and fair value 
+hedges are recorded $ 55,314 $ 4,846 $ 68,011 $ (1,160) 
+Gains (Losses) on Derivatives in Cash Flow Hedging 
+Relationship:
+Foreign exchange contracts
+Amount of gains (losses) reclassified from AOCI to 
+income $ (105) $ 0 $ 297 $ 0 
+Amount excluded from the assessment of 
+effectiveness recognized in earnings based on an 
+amortization approach  (4)  0  (19)  0 
+Gains (Losses) on Derivatives in Fair Value Hedging 
+Relationship:
+Foreign exchange contracts
+Hedged items  0  0  0  13 
+Derivatives designated as hedging instruments  0  0  0  (12) 
+Amount excluded from the assessment of 
+effectiveness  0  2  0  1 
+Gains (Losses) on Derivatives in Net Investment Hedging 
+Relationship:
+Foreign exchange contracts
+Amount excluded from the assessment of 
+effectiveness  0  20  0  12 
+Gains (Losses) on Derivatives Not Designated as 
+Hedging Instruments:
+Foreign exchange contracts  0  (340)  0  (247) 
+Other Contracts  0  323  0  38 
+Total gains (losses) $ (109) $ 5 $ 278 $ (195) Table of Contents Alphabet Inc.
+18Offsetting of Derivatives
+The gross amounts of derivative instruments subject to master netting arrangements with various 
+counterparties, and cash and noncash collateral received and pledged under such agreements were as follows (in 
+millions): 
+Offsetting of Assets
+As of December 31, 2021
+Gross Amounts Not Offset in the Consolidated 
+Balance Sheets, but Have Legal Rights to Offset
+Gross 
+Amounts of 
+Recognized 
+AssetsGross 
+Amounts 
+Offset in the 
+Consolidated 
+Balance 
+SheetsNet Presented 
+in the 
+Consolidated 
+Balance 
+SheetsFinancial 
+Instruments Cash 
+Collateral 
+ReceivedNonCash 
+Collateral 
+ReceivedNet Assets 
+Exposed 
+Derivatives $ 999 $ (38) $ 961 $ (434) (1)$ (394) $ (12) $ 121 
+As of March 31, 2022
+Gross Amounts Not Offset in the Consolidated 
+Balance Sheets, but Have Legal Rights to Offset
+Gross 
+Amounts of 
+Recognized 
+AssetsGross 
+Amounts 
+Offset in the 
+Consolidated 
+Balance 
+SheetsNet Presented 
+in the 
+Consolidated 
+Balance 
+SheetsFinancial 
+InstrumentsCash 
+Collateral 
+ReceivedNonCash 
+Collateral 
+ReceivedNet Assets 
+Exposed
+Derivatives $ 894 $ (87) $ 807 $ (427) (1)$ (310) $ 0 $ 70 
+(1)The balances as of December 31, 2021  and March 31, 2022  were related to derivative liabilities which are allowed to be 
+net settled against derivative assets in accordance with our master netting agreements.  
+Offsetting of Liabilities
+As of December 31, 2021
+Gross Amounts Not Offset in the Consolidated 
+Balance Sheets, but Have Legal Rights to Offset
+Gross 
+Amounts of 
+Recognized 
+LiabilitiesGross 
+Amounts 
+Offset in the 
+Consolidated 
+Balance 
+SheetsNet Presented 
+in the 
+Consolidated 
+Balance 
+SheetsFinancial 
+Instruments Cash 
+Collateral 
+PledgedNonCash 
+Collateral 
+Pledged Net Liabilities
+Derivatives $ 619 $ (38) $ 581 $ (434) (2)$ (4) $ (110) $ 33 
+As of March 31, 2022
+Gross Amounts Not Offset in the Consolidated 
+Balance Sheets, but Have Legal Rights to Offset
+Gross 
+Amounts of 
+Recognized 
+LiabilitiesGross 
+Amounts 
+Offset in the 
+Consolidated 
+Balance 
+SheetsNet Presented 
+in the 
+Consolidated 
+Balance 
+SheetsFinancial 
+Instruments Cash 
+Collateral 
+PledgedNonCash 
+Collateral 
+Pledged Net Liabilities
+Derivatives $ 730 $ (87) $ 643 $ (427) (2)$ (5) $ (49) $ 162 
+(2) The balances as of December 31, 2021  and March 31, 2022  were related to derivative assets which are allowed to be net 
+settled against derivative liabilities in accordance with our master nettin g agreements.
+Note 4.    Variable Interest Entities (VIE)  
+Consolidated VIEs
+We consolidate VIEs in which we hold a variable interest and are the primary beneficiary. The results of 
+operations and financial position of these VIEs are included in our consolidated financial statements.
+For certain consolidated VIEs, their assets are not available to us and their creditors do not have recourse to 
+us. As of December 31, 2021  and March 31, 2022 , assets that can only be used to settle obligations of these VIEs 
+were $6.0 billion  and $5.5 billion , respectively, and the liabilities for which creditors only have recourse to the VIEs 
+were  $2.5 billion  and $2.4 billion , respectively . 
+As of December 31, 2021  and March 31, 2022 , total noncontrolling interests (NCI), including redeemable 
+noncontrolling interests (RNCI), in our consolidated subsidiaries was $4.3 billion  for both periods.  NCI and RNCI are Table of Contents Alphabet Inc.
+19included within additional paidin capital. Net loss attributable to noncontrolling intere sts was not material for an y 
+period presented and is included within the "other" component of other income (expense), net. See Note 6  for 
+further details on other income (expense), net.
+Unconsolidated VIEs
+We have investments in VIEs in which we are not the primary beneficiary. These VIEs include private 
+companies that are primarily early stage companies and certain renewable energy entities in which activities involve 
+power generation using renewable sources. 
+We have determined that the governance structures of these entities do not allow us to direct the activities that 
+would significantly affect their economic performance. Therefore, we are not the primary beneficiary, and the results 
+of operations and financial position of these VIEs are not included in our consolidated financial statements. We 
+account for these investments as nonmarketable equity securities or equity method investments.
+ The maximum exposure of these unconsolidated VIEs is generally based on the current carrying value of the  
+investments and any future funding commitments.  We have determined that the single source of our exposure to 
+these VIEs is our capital investments in them. The carrying value and maximum exposure of these unconsolidated 
+VIEs were  $2.7 billion  and  $2.9 billion , respectively, as of December 31, 2021  and $2.8 billion  and $2.9 billion , 
+respectively, as of March 31, 2022 .
+Note 5.    Debt
+ShortTerm Debt
+We have a debt financing program of up to  $10.0 billion  through the issuance of commercial paper. Net 
+proceeds from this program are used for general corporate purposes. We had  no commercial paper outstanding  as 
+of December 31, 2021  and March 31, 2022 . 
+Our shortterm debt balance  also includes the current portion of certain longterm debt.
+LongTerm Debt
+ Total outstanding  debt is summarized below (in millions, except percentages):
+Maturity Coupon RateEffective Interest 
+RateAs of 
+December 31, 
+2021As of
+March 31, 
+2022
+Debt
+20142020 Notes Issuances 2024  2060 0.45%   3.38% 0.57%   3.38% $ 13,000 $ 13,000 
+Future finance lease payments, net 
+and other (1) 2,086  2,125 
+      Total debt  15,086  15,125 
+Unamortized discount and debt 
+issuance costs  (156)  (153) 
+Less: Current portion future finance 
+lease payments, net and other 
+current debt(1)(2) (113)  (181) 
+       Total longterm debt $ 14,817 $ 14,791 
+(1)Future finance lease payments are net of imputed interest.
+(2)Total current portion of longterm debt is included within other accrued expenses and current liabilities. See Note 6 .
+The notes in the table above are fixedrate senior unsecured obligations and generally rank equally with each 
+other. We may redeem the notes at any time in whole or in part at specified redemption prices. The effective interest 
+rates are based on proceeds received with interest payable semiannually.
+The total estimated fair value of the outstanding notes was approximately $12.4 billion  and $11.4 billion  as of 
+December 31, 2021  and March 31, 2022 , respectively. The fair value was determined based on observable market 
+prices of identical instruments in less active markets and is categorized accordingly as Level 2 in the fair value 
+hierarchy.
+Credit Facility
+As of March 31, 2022 , we had $10.0 billion  of revolving credit facilities, $4.0 billion  expiring in April 2022  and 
+$6.0 billion  expiring in April 2026 . In April 2022 , we entered into  a new $4.0 billion  credit facility expiring in April 
+2023 . The interest rates for all credit facilities are determined based on a formula using certain market rates, as well Table of Contents Alphabet Inc.
+20as our progress toward the achievement of certain sustainability goals.  No amounts were outstanding under the 
+credit facilities as of December 31, 2021  and March 31, 2022 .
+Note 6.    Supplemental Financial Statement Information  
+Accounts Receivable
+The allowance for credit losses on accounts receivable was $550 million  and $578 million  as of December 31, 
+2021  and March 31, 2022 , respectively.
+Property and Equipment, Net
+Property and equipment, net, consisted of the following (in millions):
+As of 
+December 31, 2021As of
+March 31, 2022
+Land and buildings $ 58,881 $ 62,869 
+Information technology assets  55,606  57,628 
+Construction in progress  23,172  25,555 
+Leasehold improvements  9,146  9,912 
+Furniture and fixtures  208  213 
+Property and equipment, gross  147,013  156,177 
+Less: accumulated depreciation  (49,414)  (51,959) 
+Property and equipment, net $ 97,599 $ 104,218 
+Accrued expenses and other current liabilities
+Accrued expenses and other current liabilities consisted of the following (in millions):
+As of 
+December 31, 2021As of
+March 31, 2022
+European Commission fines(1)$ 9,799 $ 9,670 
+Accrued customer liabilities  3,505  3,171 
+Accrued purchases of property and equipment  2,415  3,175 
+Current operating lease liabilities  2,189  2,267 
+Other accrued expenses and current liabilities  13,328  14,768 
+Accrued expenses and other current liabilities $ 31,236 $ 33,051 
+(1) Includes the effects of foreign exchange and interest. See Note 9  for further details.
+Accumulated Other Comprehensive Income (Loss)
+Components of AOCI, net of income tax, were as follows (in millions):
+Foreign 
+Currency 
+Translation 
+AdjustmentsUnrealized 
+Gains 
+(Losses) on 
+Availablefor
+Sale 
+InvestmentsUnrealized 
+Gains 
+(Losses) on 
+Cash Flow 
+Hedges Total
+Balance as of December 31, 2020 $ (864) $ 1,612 $ (115) $ 633 
+Other comprehensive income (loss) before 
+reclassifications  (423)  (488)  130  (781) 
+Amounts excluded from the assessment of hedge 
+effectiveness recorded in AOCI  0  0  49  49 
+Amounts reclassified from AOCI  0  11  85  96 
+Other comprehensive income (loss)  (423)  (477)  264  (636) 
+Balance as of March 31, 2021 $ (1,287) $ 1,135 $ 149 $ (3) Table of Contents Alphabet Inc.
+21Foreign 
+Currency 
+Translation 
+AdjustmentsUnrealized 
+Gains 
+(Losses) on 
+Availablefor
+Sale 
+InvestmentsUnrealized 
+Gains 
+(Losses) on 
+Cash Flow 
+Hedges Total
+Balance as of December 31, 2021 $ (2,306) $ 236 $ 447 $ (1,623) 
+Other comprehensive income (loss) before 
+reclassifications  39  (2,478)  129  (2,310) 
+Amounts excluded from the assessment of hedge 
+effectiveness recorded in AOCI  0  0  (15)  (15) 
+Amounts reclassified from AOCI  0  148  (249)  (101) 
+Other comprehensive income (loss)  39  (2,330)  (135)  (2,426) 
+Balance as of March 31, 2022 $ (2,267) $ (2,094) $ 312 $ (4,049) 
+The effects on net income of amounts reclassified from AOCI were as follows (in millions):
+Gains (Losses) Reclassified from AOCI to 
+the Consolidated Statements of Income
+Three Months Ended
+ March 31,
+ AOCI Components Location 2021 2022
+Unrealized gains (losses) on availableforsale investments
+Other income (expense), net $ (14) $ (190) 
+Benefit (provision) for income taxes  3  42 
+Net of income tax  (11)  (148) 
+Unrealized gains (losses) on cash flow hedges
+Foreign exchange 
+contracts Revenue  (105)  297 
+Interest rate contracts Other income (expense), net  1  2 
+Benefit (provision) for income taxes  19  (50) 
+Net of income tax  (85)  249 
+Total amount reclassified, net of income tax $ (96) $ 101 
+Other Income (Expense), Net
+Components of other income (expense), net, were as follows (in millions):
+ Three Months Ended
+March 31,
+ 2021 2022
+Interest income $ 345 $ 414 
+Interest expense(1) (76)  (83) 
+Foreign currency exchange gain (loss), net  113  (73) 
+Gain (loss) on debt securities, net  (86)  (367) 
+Gain (loss) on equity securities, net  4,837  (1,070) 
+Performance fees  (665)  233 
+Income (loss) and impairment from equity method investments, net  5  (89) 
+Other  373  (125) 
+Other income (expense), net $ 4,846 $ (1,160) 
+(1)Interest expense is net of interest capitalized of $47 million  and $34 million  for the three months ended March 31, 2021  and 
+2022 , respectively.Table of Contents Alphabet Inc.
+22Note 7.    Acquisitions
+Pending Acquisition of Mandiant
+In March 2022, we entered into an agreement to acquire Mandiant, a leader in dynamic cyber defense and 
+response, for $23.00  per share, in an allcash transaction valued at approximately $5.4 billion , net of cash and debt.  
+The acquisition of Mandiant is subject to customary closing conditions, including the receipt of regulatory and 
+Mandiant stockholder approvals, and is expected to close later this year. Upon the close of the acquisition, Mandiant 
+will be part of the Google Cloud segment.
+Note 8.    Goodwill and Other Intangible Assets
+Goodwill
+Changes in the carrying amount of goodwill for the three months ended March 31, 2022  were as follows (in 
+millions):
+Google 
+Services Google Cloud Other Bets Total
+Balance as of December 31, 2021 $ 19,826 $ 2,337 $ 793 $ 22,956 
+Acquisitions  9  86  0  95 
+Foreign currency translation and other adjustments  (36)  (4)  (1)  (41) 
+Balance as of March 31, 2022 $ 19,799 $ 2,419 $ 792 $ 23,010 
+Other Intangible Assets
+Information regarding  purchased intangible assets was as follows (in millions):
+As of December 31, 2021
+ Gross
+Carrying
+AmountAccumulated
+AmortizationNet
+Carrying
+Amount
+Patents and developed technology $ 4,786 $ 4,112 $ 674 
+Customer relationships  506  140  366 
+Trade names and other  534  295  239 
+Total definitelived intangible assets  5,826  4,547  1,279 
+Indefinitelived intangible assets  138    138 
+Total intangible assets $ 5,964 $ 4,547 $ 1,417 
+As of March 31, 2022
+Gross
+Carrying
+AmountAccumulated
+AmortizationNet
+Carrying
+Amount
+Patents and developed technology $ 4,613 $ 4,080 $ 533 
+Customer relationships  506  166  340 
+Trade names and other  418  109  309 
+Total definitelived intangible assets  5,537  4,355  1,182 
+Indefinitelived intangible assets  131  0  131 
+Total intangible assets $ 5,668 $ 4,355 $ 1,313 
+For all intangible assets acquired and purchased during the three months ended March 31, 2022 , patents and 
+developed technology have a weighted average useful lif e of 3.7 years , and trade names and other have a 
+weightedaverage useful life of 5.6 years .
+Amortization expense relating to purchased intangible assets was $217 million  and $191 million  for the three 
+months ended March 31, 2021  and 2022 , respectively.Table of Contents Alphabet Inc.
+23Expected amortization expense related to purchased intangible assets held as of March 31, 2022  was as 
+follows (in millions):
+Remainder of 2022 $ 363 
+2023  274 
+2024  244 
+2025  116 
+2026  71 
+Thereafter  114 
+Total $ 1,182 
+Note 9.    Contingencies
+Indemnifications
+In the normal course of business, including to facilitate transactions in our services and products and corporate 
+activities, we indemnify certain parties, including advertisers, Google Network partners, customers of Google Cloud 
+offerings, lessors, and service providers with respect to certain matters. We have agreed to hold certain parties 
+harmless against losses arising from a breach of representations or covenants, or out of intellectual property 
+infringement or other claims made against certain parties. Several of these agreements limit the time within which 
+an indemnification claim can be made and the amount of the claim. In addition, we have entered into indemnification 
+agreements with our officers and directors, and our bylaws contain similar indemnification obligations to our agents.
+It is not possible to make a reasonable estimate of the maximum potential amount under these indemnification 
+agreements due to the unique facts and circumstances involved in each particular agreement. Additionally, we have 
+a limited history of prior indemnification claims and the payments we have made under such agreements have not 
+had a material adverse effect on our results of operations, cash flows, or financial position. However, to the extent 
+that valid indemnification claims arise in the future, future payments by us could be significant and could have a 
+material adverse effect on our results of operations or cash flows in a particular period. 
+As of March 31, 2022 , we did not have any material indemnification claims that were probable or reasonably 
+possible.
+Legal Matters
+Antitrust Investigations
+On November 30, 2010, the EC's Directorate General for Competition opened an investigation into various 
+antitrustrelated complaints against us. 
+On June 27, 2017, the EC announced its decision that certain actions taken by Google regarding its display 
+and ranking of shopping search results and ads infringed European competition law. The EC decision imposed a 
+€2.4 billion  ($2.7 billion  as of June 27, 2017) fine. On September 11, 2017, we appealed the EC decision to the 
+General Court, and on September 27, 2017, we implemented product changes to bring shopping ads into 
+compliance with the EC's decision. We recognized a charge of $2.7 billion  for the fine in the second quarter of 2017. 
+On November 10, 2021, the General Court rejected our appeal, and we subsequently filed an appeal with the 
+European Court of Justice on January 20, 2022.
+On July 18, 2018, the EC announced its decision that certain provisions in Google’s Androidrelated distribution 
+agreements infringed European competition law. The EC decision imposed a €4.3 billion  ($5.1 billion  as of June 30, 
+2018) fine and directed the termination of the conduct at issue. On October 9, 2018, we appealed the EC decision, 
+which remains pending. On October 29, 2018, we implemented changes to certain of our Android distribution 
+practices. We recognized a charge of $5.1 billion  for the fine in the second quarter of 2018.
+On March 20, 2019, the EC announced its decision that certain contractual provisions in agreements that 
+Google had with AdSense for Search partners infringed European competition law. The EC decision imposed a fine 
+of €1.5 billion  ($1.7 billion  as of March 20, 2019) and directed actions related to AdSense for Search partners' 
+agreements, which we implemented prior to the decision. On June 4, 2019, we appealed the EC decision, which 
+remains pending. We recognized a charge of $1.7 billion  for the fine in the first quarter of 2019.
+While each EC decision is under appeal, we included the fines in accrued expenses and other current liabilities 
+on our Consolidated Balance Sheets as we provided bank guarantees (in lieu of a cash payment) for the fines.Table of Contents Alphabet Inc.
+24From time to time we are subject to formal and informal inquiries and investigations on competition matters by 
+regulatory authorities in the United States (U.S.), Europe, and other jurisdictions. In August 2019, we began 
+receiving civil investigative demands from the U.S. Department of Justice (DOJ) requesting information and 
+documents relating to our prior antitrust investigations and certain aspects of our business. The DOJ and a number 
+of state Attorneys General filed a lawsuit on October 20, 2020 alleging that Google violated U.S. antitrust laws 
+relating to Search and Search advertising. Separately, on December 16, 2020, a number of state Attorneys General 
+filed an antitrust complaint against Google in the U.S. District Court for the Eastern District of Texas, alleging that 
+Google violated U.S. antitrust laws as well as state deceptive trade laws relating to its advertising technology. On 
+June 22, 2021, the EC opened a formal investigation into Google's advertising technology business practices. On 
+July 7, 2021, a number of state Attorneys General filed an antitrust complaint against us in the U.S. District Court for 
+the Northern District of California, alleging that Google’s operation of Android and Google Play violated U.S. 
+antitrust laws and state antitrust and consumer protection laws. We believe these complaints are without merit and 
+will defend ourselves vigorously. The DOJ, state Attorneys General, and EC continue their investigations into certain 
+aspects of our business. We continue to cooperate with federal and state regulators in the U.S., the EC, and other 
+regulators around the world.
+Patent and Intellectual Property Claims
+We have had patent, copyright, trade secret, and trademark infringement lawsuits filed against us claiming that 
+certain of our products, services, and technologies infringe others' intellectual property rights. Adverse results in 
+these lawsuits may include awards of substantial monetary damages, costly royalty or licensing agreements, or 
+orders preventing us from offering certain features, functionalities, products, or services. As a result, we may have 
+to change our business practices and develop noninfringing products or technologies, which could result in a loss 
+of revenues for us and otherwise harm our business. In addition, the U.S. International Trade Commission (ITC) has 
+increasingly become an important forum to litigate intellectual property disputes because an ultimate loss in an ITC 
+action can result in a prohibition on importing infringing products into the U.S. Because the U.S. is an important 
+market, a prohibition on importation could have an adverse effect on us, including preventing us from importing 
+many important products into the U.S. or necessitating workarounds that may limit certain features of our products.
+Furthermore, many of our agreements with our customers and partners require us to indemnify them against 
+certain intellectual property infringement claims, which would increase our costs as a result of defending such 
+claims, and may require that we pay significant damages if there were an adverse ruling in any such claims. In 
+addition, our customers and partners may discontinue the use of our products, services, and technologies, as a 
+result of injunctions or otherwise, which could result in loss of revenues and adversely affect our business.
+Other
+We are also regularly subject to claims, suits, regulatory and government investigations, other proceedings, 
+and consent decrees involving competition, intellectual property, privacy and cybersecurity, tax and related 
+compliance, labor and employment, commercial disputes, content generated by our users, goods and services 
+offered by advertisers or publishers using our platforms, personal injury, consumer protection, and other matters. 
+For example, we currently have a number of privacy investigations and suits ongoing in multiple jurisdictions. Such 
+claims, suits, regulatory and government investigations, other proceedings, and consent decrees could result in 
+substantial fines and penalties, injunctive relief, ongoing auditing and monitoring obligations, changes to our 
+products and services, alterations to our business models and operations, and collateral related civil litigation or 
+other adverse consequences, all of which could harm our business, reputation, financial condition, and operating 
+results.
+We have ongoing legal matters in Russia. We do not believe these ongoing legal matters will have a material 
+adverse effect on our business, consolidated financial position, results of operations, or cash flows.
+Certain outstanding matters include speculative, substantial or indeterminate monetary amounts. We record a 
+liability when we believe that it is probable that a loss has been incurred, and the amount can be reasonably 
+estimated. If we determine that a loss is reasonably possible and the loss or range of loss can be estimated, we 
+disclose the reasonably possible loss. We evaluate developments in our legal matters that could affect the amount 
+of liability that has been previously accrued, and the matters and related reasonably possible losses disclosed, and 
+make adjustments as appropriate. Significant judgment is required to determine both the likelihood of there being 
+and the estimated amount of a loss related to such matters.
+With respect to our outstanding matters, based on our current knowledge, we believe that the amount or range 
+of reasonably possible loss will not, either individually or in aggregate, have a material adverse effect on our 
+business, consolidated financial position, results of operations, or cash flows. However, the outcome of such 
+matters is inherently unpredictable and subject to significant uncertainties.Table of Contents Alphabet Inc.
+25We expense legal fees in the period in which they are incurred.
+NonIncome Taxes
+We are under audit by various domestic and foreign tax authorities with regards to nonincome tax matters. 
+The subject matter of nonincome tax audits primarily arises from disputes on the tax treatment and tax rate applied 
+to the sale of our products and services in these jurisdictions and the tax treatment of certain employee benefits. We 
+accrue nonincome taxes that may result from examinations by, or any negotiated agreements with, these tax 
+authorities when a loss is probable and reasonably estimable. If we determine that a loss is reasonably possible and 
+the loss or range of loss can be estimated, we disclose the reasonably possible loss. Due to the inherent complexity 
+and uncertainty of these matters and judicial process in certain jurisdictions, the final outcome may be materially 
+different from our expectations.
+For information regarding income tax contingencies, see Note 13 .
+Note 10.    Stockholders' Equity  
+Share Repurchases
+In April 2021, the Board of Directors of Alphabet authorized the company to repurchase up to $50.0 billion  of its 
+Class C stock. In July 2021, th e Board of Directors of Alphabet approved an amendment to the April 2021 
+authorization, permitting  the company to repurchase both Class A and Class C shares in a manner deemed in the 
+best interest of the company and its stockholders, taking into account the economic cost and prevailing market 
+conditions, including the relative trading prices and volumes of the Class A and Class C shares. As of March 31, 
+2022 , $4.1 billion  remains available for Class A and Class C share repurchases under the amended authorization.  
+In accordance with the authorization s of the Board of Directors of Alphabet, during the three months ended 
+March 31, 2022 , we repurchased and subsequently retired 4.9 million  aggregate shares for $13.3 billion . Of the 
+aggregate amount repurchased and subsequently retired during the  three months ended March 31, 2022 , 0.2 
+million  shares were Class A stock for $660 million  and 4.7 million  shares were Class C stock for $12.6 billion .
+In April 2022, the Board of Directors of Alphabet authorized the company to repurchase up to an additional 
+$70.0 billion  of its Class A and Class C shares  in a manner deemed in the best interest of the company and its 
+stockholders, taking into account the economic cost and prevailing market conditions, including the relative trading 
+prices and volumes of the Class A and Class C shares . 
+Repurchases are  executed from time to time, subject to general business and market conditions and other 
+investment opportunities, through open market purchases or privately negotiated transactions, including through 
+Rule 10b51 plans. The repurchase program does not have an expiration date.
+Stock Split Effected  in Form of Stock Dividend (“Stock Split”)
+On February 1, 2022, the company announced that the Board of Directors had approved and declared a 20
+forone stock split in the form of a onetime special stock dividend on each share of the company’s Class A, Class 
+B, and Class C stock. The Stock Split is subject to stockholder approval of an amendment to the company’s 
+Amended and Restated Certificate of Incorporation to increase the number of authorized shares of Class A, Class 
+B, and Class C stock to accommodate the Stock Split .
+If approval is obtained, each of the company’s stockholders of record at the close of business on July 1, 2022 
+(the “Record Date”), will receive, after the close of business on July 15, 2022, a dividend of 19 additional shares of 
+the same class of stock for every share held by such stockholder as of the Record Date.Table of Contents Alphabet Inc.
+26Note 11.    Net Income Per Share
+The following table sets forth the computation of basic and diluted net income per share of Class A , Class B, 
+and Class C stock  (in millions, except share amounts which are reflected in thousands, and per share amounts):
+Three Months Ended March 31,
+ 2021 2022
+ Class A Class B Class C Class A Class B Class C
+Basic net income per share:
+Numerator
+Allocation of undistributed earnings $ 8,011 $ 1,221 $ 8,698 $ 7,481 $ 1,109 $ 7,846 
+Denominator
+Number of shares used in per share computation  300,800  45,840  326,580  300,478  44,535  315,158 
+Basic net income per share $ 26.63 $ 26.63 $ 26.63 $ 24.90 $ 24.90 $ 24.90 
+Diluted net income per share:
+Numerator
+Allocation of undistributed earnings for basic 
+computation $ 8,011 $ 1,221 $ 8,698 $ 7,481 $ 1,109 $ 7,846 
+Reallocation of undistributed earnings as a result of 
+conversion of Class B to Class A shares  1,221  0  0  1,109  0  0 
+Reallocation of undistributed earnings  (119)  (16)  119  (95)  (12)  95 
+Allocation of undistributed earnings $ 9,113 $ 1,205 $ 8,817 $ 8,495 $ 1,097 $ 7,941 
+Denominator
+Number of shares used in basic computation  300,800  45,840  326,580  300,478  44,535  315,158 
+Weightedaverage effect of dilutive securities
+Add:
+Conversion of Class B to Class A shares outstanding  45,840  0  0  44,535  0  0 
+Restricted stock units and other contingently 
+issuable shares  18  0  8,833  5  0  7,375 
+Number of shares used in per share computation  346,658  45,840  335,413  345,018  44,535  322,533 
+Diluted net income per share $ 26.29 $ 26.29 $ 26.29 $ 24.62 $ 24.62 $ 24.62 
+For the periods presented above, the net income per share amounts are the same for Class A , Class B, and 
+Class C stock because the holders of each class are entitled to equal per share dividends or distributions in 
+liquidation in accordance with the Amended and Restated Certificate of Incorporation of Alphabet Inc.
+Note 12.    Compensation Plans
+StockBased Compensation
+For the three months ended March 31, 2021  and 2022 , total stockbased compensation ( SBC) expense was 
+$3.8 billion  and $4.5 billion , including amou nts associated with awards we expect to settle in Alphabet stock o f $3.7 
+billion  and $4.4 billion , respectively. 
+StockBased Award Activities
+The following table summarizes the activities for unvested  Alphabet restricted stock units (RSUs) for the three 
+months ended March 31, 2022 : 
+ Unvested Restricted Stock Units
+ Number of
+SharesWeighted
+Average
+GrantDate
+Fair Value
+Unvested as of December 31, 2021  16,894,713 $ 1,626.13 
+Granted  6,698,922 $ 2,758.02 
+Vested  (2,431,649) $ 1,691.60 
+Forfeited/canceled  (536,815) $ 1,848.92 
+Unvested as of March 31, 2022  20,625,171 $ 1,980.24 
+As of March 31, 2022 , there was $38.9 billion  of unrecognized compensation cost related to unvested 
+employee RSUs. This amount is expected to be recognized over a weightedaverage period of 2.8 years . Table of Contents Alphabet Inc.
+27Note 13.    Income Taxes  
+The following table presents  provision for income taxes (in millions, except for effective tax rate):
+Three Months Ended
+March 31,
+2021 2022
+Income before provision for income taxes $ 21,283 $ 18,934 
+Provision for income taxes $ 3,353 $ 2,498 
+Effective tax rate  15.8 %  13.2 %
+We are subject to income taxes in the U.S. and foreign jurisdictions. Significant judgment is required in 
+evaluating our uncertain tax positions and determining our provision for income taxes. Total gross unrecognized tax 
+benefits were $5.2 billion  and $5.4 billion  as of December 31, 2021  and March 31, 2022 , respectively. Total 
+unrecognized tax benefits that, if recognized, would affect our effective tax rate were $3.7 billion  and $3.9 billion  as 
+of December 31, 2021  and March 31, 2022 , respectively. 
+For information regarding nonincome taxes, see Note 9 .
+Note 14.    Information about Segments and Geographic Areas  
+We report our segment results as Google Services, Google Cloud, and Other Bets:
+Google Services includes products and services such as ads, Android, Chrome, hardware, Google Maps, 
+Google Play, Search, and YouTube. Google Services generates revenues primarily from advertising; sales 
+of apps and inapp purchases, digital content products, and hardware; and fees received for subscription
+based products such as YouTube Premium and YouTube TV.
+Google Cloud includes Google’s infrastructure and platform services, collaboration tools, and other services 
+for enterprise customers. Google Cloud generates revenues from fees received for Google Cloud Platform 
+services, Google Workspace collaboration tools, and other enterprise services.
+Other Bets is a combination of multiple operating segments that are not individually material. Revenues 
+from Other Bets are generated primarily from the sale of health technology and internet services.  
+Revenues, certain costs, such as costs associated with content and traffic acquisition, certain engineering 
+activities, and hardware, as well as certain operating expenses are directly attributable to our segments. Due to the 
+integrated nature of Alphabet, other costs and expenses, such as technical infrastructure and office facilities, are 
+managed centrally at a consolidated level. The associated costs, including depreciation and impairment, are 
+allocated to operating segments as a service cost generally based on usage or headcount.
+Unallocated corporate costs primarily include corporate initiatives, corporate shared costs, such as finance and 
+legal, including certain fines and settlements, as well as costs associated with certain shared R&D activities. 
+Additionally, hedging gains (losses) related to revenue are included in corporate costs.  
+Our operating segments are not evaluated using asset information.
+The follo wing table presents information about segments (in millions):
+ Three Months Ended
+March 31,
+ 2021 2022
+Revenues:
+Google Services $ 51,178 $ 61,472 
+Google Cloud  4,047  5,821 
+Other Bets  198  440 
+Hedging gains (losses)  (109)  278 
+Total revenues $ 55,314 $ 68,011 Table of Contents Alphabet Inc.
+28 Three Months Ended
+March 31,
+ 2021 2022
+Operating income (loss):
+Google Services $ 19,546 $ 22,920 
+Google Cloud  (974)  (931) 
+Other Bets  (1,145)  (1,155) 
+Corporate costs, unallocated  (990)  (740) 
+Total income from operations $ 16,437 $ 20,094 
+For revenues by geography, see Note 2 .
+The following table presents  longlived assets by geographic area, which includes property and equipment, net 
+and operating lease assets (in millions) :
+As of 
+December 31, 2021As of
+March 31, 2022
+Longlived assets:
+United States $ 80,207 $ 85,341 
+International  30,351  31,869 
+Total longlived assets $ 110,558 $ 117,210 Table of Contents Alphabet Inc.
+29ITEM 2. MANAGEMENT ’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS 
+OF OPERATIONS
+Please read the following discussion and analysis of our financial condition and results of operations together 
+with "Note About ForwardLooking Statements" and our consolidated financial statements and related notes 
+included under Item 1 of this Quarterly Report on Form 10Q as well as our Annual Report on Form 10K for the 
+fiscal year ended December 31, 2021, including Part I, Item 1A "Risk Factors."
+Understanding Alphabet’s Financial Results
+Alphabet is a collection of businesses  the largest of which is Google. We report Google in two segments, 
+Google Services and Google Cloud; we also report all nonGoogle businesses collectively as Other Bets. Other 
+Bets include earlier stage technologies that are further afield from our core Google business. For further details on 
+our segments, see Note 14  of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly 
+Report on Form 10Q.
+Seasonality and other
+Our advertising revenues are affected by seasonal fluctuations in internet usage, advertising expenditures, and 
+underlying business trends, such as traditional retail seasonality. Additionally, our nonadvertising revenues , 
+including those generated from Google Cloud, Google Play,  hardware, and YouTube, may be affected by 
+fluctuations driven by changes in pricing, digital content releases, fee structures, new product and service launches, 
+and other market dynamics, as well as seasonality. 
+Revenues and Monetization Metrics  
+Google Services
+Google Services revenues consist of revenues generated from advertising (“Google advertising”) as well as 
+revenues from other sources (“Google other revenues”).
+Google Advertising
+Google advertising revenues are comprised of the following: 
+Google Search & other, which includes revenues generated on Google search properties (including 
+revenues from traffic generated by search distribution partners who use Google.com as their default search 
+in browsers, toolbars, etc.), and other Google owned and operated properties like Gmail, Google Maps, and 
+Google Play;
+YouTube ads, which includes revenues generated on YouTube properties; and
+Google Network, which includes revenues generated on Google Network properties participating in AdMob, 
+AdSense, and Google Ad Manager.
+We use certain metrics to track how well traffic across various properties is monetized as it relates to our 
+advertising revenues: paid clicks and costperclick pertain to traffic on Google Search & other properties, while 
+impressions and costperimpressions pertain to traffic on our Network partners’ properties.
+Paid clicks represent engagement by users and include clicks on advertisements by endusers on Google 
+search properties and other Google owned and operated properties including Gmail, Google Maps, and Google 
+Play. Costperclick is defined as clickdriven revenues divided by our total number of paid clicks and represents the 
+average amount we charge advertisers for each engagement by users.
+Impressions include impressions displayed to users on Google Network properties participating primarily in 
+AdMob, AdSense, and Google Ad Manager. Costperimpression is defined as impressionbased and clickbased 
+revenues divided by our total number of impressions, and represents the average amount we charge advertisers for 
+each impression displayed to users.
+As our business evolves, we periodically review, refine, and update our methodologies for monitoring, 
+gathering, and counting the number of paid clicks and the number of impressions, and for identifying the revenues 
+generated by the corresponding click and impression activity.
+Our advertising revenue growth, as well as the change in paid clicks and costperclick on Google Search & 
+other properties and the change in impressions and costperimpression on Google Network properties and the 
+correlation between these items, have been affected and may continue to be affected by various factors, including:
+advertiser competition for keywords;Table of Contents Alphabet Inc.
+30changes in advertising quality, formats, delivery or policy;
+changes in device mix;
+changes in foreign currency exchange rates;
+fees advertisers are willing to pay based on how they manage their advertising costs;
+general econo mic conditions  and various external dynamics, including t he effect of COVID19, geopolitical 
+events, regulations and other measures;
+seasonality; and
+traffic growth in emerging markets compared to more mature markets and across various advertising 
+verticals and channels.
+Google Other
+Google other revenues are comprised of the following:
+Google Play, which includes sales of apps and inapp purchases and digital content sold in the Google Play 
+store;
+Devices and Services, which includes sales of hardware, including Fitbit wearable devices, Google Nest 
+home products, and Pixel phones;
+YouTube nonadvertising, which includes YouTube Premium and YouTube TV subscriptions; and
+other products and services.
+Google Cloud
+Google Cloud revenues are comprised of the following:
+Google Cloud Platform, which includes fees for infrastructure, platform, and other services;
+Google Workspace, which includes fees for cloudbased collaboration tools for enterprises, such as Gmail, 
+Docs, Drive, Calendar and Meet; and 
+other enterprise services.
+Other Bets
+Revenues from Other Bets are generated primarily from the sale of health technology and internet services.
+For further details on how we recognize revenue, see Note 1 of the Notes to Consolidated Financial 
+Statements included in Part II, Item 8 in our Annual Report on Form 10K for the fiscal year ended December 31, 
+2021 .
+Costs and Expenses
+Our cost structure has two components: cost of revenues and operating expenses. Our operating expenses 
+include costs related to R&D, sales and marketing, and general and administrative functions. Certain of these 
+expenses, including those associated with the operation of our technical infrastructure as well as components of our 
+operating expenses, are generally less variable in nature and may not correlate to the changes in revenue.
+Cost of Revenues
+Cost of revenues is comprised of TAC and other costs of revenues.
+TAC includes: 
+◦Amounts paid to our distribution partners who make available our search access points and 
+services. Our distribution partners include browser providers, mobile carriers, original equipment 
+manufacturers, and software developers.
+◦Amounts paid to Google Network partners primarily for ads displayed on their properties.
+Other cost of revenues includes:
+◦Content acquisition costs, which are payments to content providers from whom we license video 
+and other content for distribution on YouTube and Google Play (we pay fees to these content 
+providers based on revenues generated or a flat fee).Table of Contents Alphabet Inc.
+31◦Expenses associated with our data centers (including bandwidth, compensation expenses, 
+depreciation, energy, and other equipment costs) as well as other operations costs (such as content 
+review as well as customer and product support costs).
+◦Inventory and other costs related to the hardware we sell.
+The cost of revenues as a percentage of revenues generated from ads placed on Google Network properties 
+are significantly higher than the cost of revenues as a percentage of revenues generated from ads placed on 
+Google Search & other properties, because most of the advertiser revenues from ads served on Google Network 
+properties are paid as TAC to our Google Network partners.
+Operating Expenses
+Operating expenses are generally incurred during our normal course of business, which we categorize as 
+either R&D, sales and marketing, or general and administrative.
+The main components of our R&D expenses are:
+compensation expenses for engineering and technical employees responsible for R&D related to our 
+existing and new products and services; 
+depreciation; and
+professional services fees primarily related to consulting and outsourcing services.
+The main components of our sales and marketing expenses are:
+compensation expenses for employees engaged in sales and marketing, sales support, and certain 
+customer service functions; and
+spending relating to our advertising and promotional activities in support of our products and services.
+The main components of our general and administrative expenses are:
+compensation expenses for employees in finance, human resources, information technology, legal, and 
+other administrative support functions; 
+expenses related to legal matters, including fines and settlements; and 
+professional services fees, including audit, consulting, outside legal, and outsourcing services.
+Other Income (Expense), Net 
+Other income (expense), net primarily consists of interest income (expense), the effect of foreign currency 
+exchange gains (losses), net gains (losses) and impairment on our marketable and nonmarketable securities, 
+performance fees, and income (loss) and impairment from our equity method investments. 
+For additional details, including how we account for our investments and factors that can drive fluctuations in 
+the value of our investments, see Note 1 of the Notes to Consolidated Financial Statements included in Part II, Item 
+8 and Item 7A, “Quantitative and Qualitative Disclosur es About Market Risk” in our An nual Report on Form 10K for 
+the fiscal year ended December 31, 2021  as well as Note 3 of the Notes to Consolidated Financial Statements 
+included in Item 1 of this Quarterly Report on Form 10Q.
+Provision for Income Taxes  
+Provision for income taxes represents the estimated amount of federal, state, and foreign income taxes 
+incurred in the U.S. and the many jurisdictions in which we operate. The provision includes the effect of reserve 
+provisions and changes to reserves that are considered appropriate as well as the related net interest and penalties.
+For additional details , see Note 1 of the Notes to Consolidated Financial Statements included in Part II, Item 8 
+in our An nual Report on Form 10K for the fiscal year ended December 31, 2021  as well as Note 13  of the Notes to 
+Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10Q.Table of Contents Alphabet Inc.
+32Executive Overview
+The following table summarizes consolidated financial results (in millions, except per share information,  
+percentages, and number of employees):
+Three Months Ended
+March 31,
+2021 2022 $ Change % Change
+Consolidated revenues $ 55,314 $ 68,011  12,697  23 %
+Change in consolidated constant currency revenues  26 %
+Cost of revenues $ 24,103 $ 29,599 $ 5,496  23 %
+Operating expenses $ 14,774 $ 18,318 $ 3,544  24 %
+Operating income $ 16,437 $ 20,094 $ 3,657  22 %
+Operating margin  30 %  30 %  0 %
+Other income (expense), net $ 4,846 $ (1,160) $ (6,006)  (124) %
+Net Income $ 17,930 $ 16,436 $ (1,494)  (8) %
+Diluted EPS $ 26.29 $ 24.62 $ (1.67)  (6) %
+Number of Employees  139,995 163,906 23,911  17 %
+Revenues were $68.0 billion , an increase of 23% year over year, primarily driven by an increase in Google 
+Services segment revenues of $10.3 billion  or 20% and an increase in Google Cloud segment revenues of 
+$1.8 billion  or 44%.
+Cost of revenues was $29.6 billion , an increase of 23% year over year, driven  by increases in other costs of 
+revenues and TAC .
+Operating expenses were $18.3 billion , an increase of 24% year over year, primarily driven by headcount 
+growth and increases in  advertising and promotional expenses .
+Other inform ation
+During the first quarter of 2022, we suspended the vast majority of our commercial activities in Russia and 
+effectively ceased business activities of our Russian entity. The se direct ac tions did not have a material 
+effect on our financial results. The ongoing broader economic effects  resulting from  the war in  Ukrain e on 
+our future financial results may be unpredictable.
+We entered into an agreement to acquire Mandiant, a leader in dynamic cyber defense and response, in 
+March 2022 for $23.00  per share, in an allcash transaction valued at approximately  $5.4 billion , net of cash 
+and debt. See Note 7  of the Notes to the Consolidated Financial Statements included in Item 1 of this 
+Quarterly Report on Form 10Q for additional information.
+Repurchases of Class A and Class C shares were $13.3 billion . In April 2022, the Board of Directors of 
+Alphabet authorized the company to repurchase up to an additional $70.0 billion  of its Class A and Class C 
+shares . See Note 10  of the Notes to the Consolidated Financial Statements included in Item 1 o f this 
+Quarterly Report on Form 10Q for additional information.
+The company announced in February 2022 that the Board of Directors had approved and declared a 20for
+one stock split in the form of a onetime special stock dividend on each share of the company’s Class A, 
+Class B, and Class C stock. See Note 10  of the Notes to Consolidated Financial Statements included in 
+Item 1 of this Quarterly Report on Form 10Q for additional information.
+Operating cash flow was $25.1 billion , primarily driven by revenues generated from our advertising 
+products.
+Capital expenditures  of $9.8 billion  reflects the increase in purchases of office facilities.Table of Contents Alphabet Inc.
+33Financial Results
+Revenues
+The following table presents revenues by type (in millions ): 
+ Three Months Ended
+March 31,
+ 2021 2022
+Google Search & other $ 31,879 $ 39,618 
+YouTube ads  6,005  6,869 
+Google Network  6,800  8,174 
+Google advertising  44,684  54,661 
+Google other  6,494  6,811 
+Google Services total  51,178  61,472 
+Google Cloud  4,047  5,821 
+Other Bets  198  440 
+Hedging gains (losses)  (109)  278 
+Total revenues $ 55,314 $ 68,011 
+Google Services
+Google advertising revenues
+Google Search & other
+Google Search & other revenues increased  $7.7 billion  from the three months ended March 31, 2021  to the 
+three months ended March 31, 2022 . The overall growth was  driven by interrelated factors including increases in 
+search queries resulting from growth in user adoption and usage, primarily on mobile devices,  growth in advertiser 
+spending, and improvements we have made in ad formats and delivery.
+YouTube ads
+YouTube ads revenues increased  $864 million  from the three months ended March 31, 2021  to the three 
+months ended March 31, 2022 . The growth was driven by our brand and direct response advertising products. 
+Growth for our brand advertising products was primarily driven by increased spending by our advertisers. Growth for 
+our direct response advertising products was primarily driven by  increased advertiser spending as well as 
+improvements to ad formats and delivery.
+Google Network
+Google Network revenues increased  $1.4 billion  from the three months ended March 31, 2021  to the three 
+months ended March 31, 2022 . The growth was primarily driven by strength in AdSense and AdMob.
+Monetization Metrics
+Paid clicks and costperclick
+The following table presents yearoveryear changes in paid clicks and costperclick (expressed as a 
+percentage):
+Three Months 
+Ended March 31,
+ 2022
+Paid clicks change 16%
+Costperclick change 8%
+Paid clicks increased from the three months ended March 31, 2021  to the three months ended March 31, 
+2022 , driven by a number of interrelated factors, including an increase in search queries resulting from growth in 
+user adoption and usage, primarily on mobile devices; growth in advertiser spending ; and improvements we have 
+made in ad formats and delivery.Table of Contents Alphabet Inc.
+34The increase in costperclick from the three months ended March 31, 2021  to the three months ended March 
+31, 2022  was driven by a number of interrelated factors including changes in device mix, geographic mix, growth in 
+advertiser spending, ongoing product changes , and property mix.
+Impressions and costperimpression
+The following table presents yearoveryear changes in impressions and costperimpression (expressed as a 
+percentage):
+ Three Months 
+Ended March 31,
+ 2022
+Impressions change 5%
+Costperimpression change 17%
+Impressions increased from the three months ended March 31, 2021  to the three months ended March 31, 
+2022 , primarily driven by growth in Google Ad Manager  and AdMob . The increase in costperimpression from the 
+three months ended March 31, 2021  to the three months ended March 31, 2022  was driven by a number of 
+interrelated factors including ongoing product and policy changes, improvements we have made in ad formats and 
+delivery, changes in device mix, geographic mix, product mix, and property mix.
+Google other revenues
+Google other revenues increased  $317 million  from the three months ended March 31, 2021  to the three 
+months ended March 31, 2022 . The growth was primarily driven by YouTube nonadvertising, largely due to an 
+increase in paid subscribers. The overall growth was partially  offset by a decline in Google Play  revenues largely 
+driven by fee structure changes  we announced in 2021 .
+Google Cloud
+Google Cloud revenues increased  $1.8 billion  from the three months ended March 31, 2021  to the three 
+months ended March 31, 2022 . The growth was primarily driven by GCP followed by Google Workspace offerings. 
+Google Cloud's infrastructure and platform services were the largest drivers of growth in GCP.
+Revenues by Geography
+The following table presents revenues by geography as a percentage of revenues, determined based on the 
+addresses of our customers:
+Three Months Ended
+ March 31,
+ 2021 2022
+United States  45 %  47 %
+EMEA  31 %  30 %
+APAC  19 %  17 %
+Other Americas  5 %  6 %
+For further details on revenues by geography, see Note 2  of the Notes to Consolidated Financial Statements 
+included in Item 1 of this Quarterly Report on Form 10Q.
+Use of Constant Currency Revenues and Constant Currency Revenue Percentage Change
+The effect of currency exchange rates on our business is an important factor in understanding period to period 
+comparisons. We use nonGAAP constant currency revenues and nonGAAP percentage change in constant 
+currency revenues for financial and operational decisionmaking and as a means to evaluate periodtoperiod 
+comparisons. We believe the presentation of results on a constant currency basis in addition to GAAP results helps 
+improve the ability to understand our performance because it excludes the effects of foreign currency volatility that 
+are not indicative of our core operating results.
+Constant currency information compares results between periods as if exchange rates had remained constant 
+period over period. We define constant currency revenues as total revenues excluding the effect of foreign 
+exchange rate movements and hedging activities, and use it to determine the constant currency revenue 
+percentage change on a yearonyear basis. Constant currency revenues are calculated by translating current 
+period revenues using prior year comparable period exchange rates, as well as excluding any hedging effects 
+realized in the current period.Table of Contents Alphabet Inc.
+35Constant currency revenue percentage change is calculated by determining the change in current period 
+revenues over prior year comparable period revenues where current period foreign currency revenues are 
+translated using prior year comparable period exchange rates and hedging effects are excluded from revenues of 
+both periods.
+These results should be considered in addition to, not as a substitute for, results reported in accordance with 
+GAAP. Results on a constant currency basis, as we present them, may not be comparable to similarly titled 
+measures used by other companies and are not a measure of performance presented in accordance with GAAP.
+The following table presents the foreign exchange effect on international revenues and total revenues (in 
+millions, except percentages):
+ Three Months Ended
+ March 31,
+2021 2022% Change from 
+Prior Year
+EMEA revenues $ 17,031 $ 20,317  19 %
+EMEA constant currency revenues  21,628  27 %
+APAC revenues  10,455  11,841  13 %
+APAC constant currency revenues  12,440  19 %
+Other Americas revenues  2,905  3,842  32 %
+Other Americas constant currency revenues  3,923  35 %
+United States revenues  25,032  31,733  27 %
+Hedging gains (losses)  (109)  278 
+Total revenues $ 55,314 $ 68,011  23 %
+Revenues, excluding hedging effect $ 55,423 $ 67,733 
+Exchange rate effect  1,991 
+Total constant currency revenues $ 69,724  26 %
+EMEA revenue growth from the three months ended March 31, 2021  to the three months ended March 31, 
+2022  was unfavorably  affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar 
+strengthening relative to the Euro. 
+APAC revenue growth from the three months ended March 31, 2021  to the three months ended March 31, 
+2022  was unfavorably  affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar 
+strengthening relative to the Japanese yen.
+Other Americas revenue growth from the three months ended March 31, 2021  to the three months ended 
+March 31, 2022  was not materially affected by changes in foreign currency exchange rates .
+Costs and Expenses
+Cost of Revenues
+The following table presents cost of revenues, including TAC (in millions, except percentages):
+Three Months Ended
+ March 31,
+ 2021 2022
+TAC $ 9,712 $ 11,990 
+Other cost of revenues  14,391  17,609 
+Total cost of revenues $ 24,103 $ 29,599 
+Total cost of revenues as a percentage of revenues  43.6 %  43.5 %Table of Contents Alphabet Inc.
+36Cost of revenues increased  $5.5 billion  from the three months ended March 31, 2021  to the three months 
+ended March 31, 2022 . The increase  was due to increases in other cost of revenues and TAC of $3.2 billion  and 
+$2.3 billion , respectively.
+The increase in TAC from the three months ended March 31, 2021  to the three months ended March 31, 2022  
+was due to increases in TAC paid to distribution partners and to Google Network partners, primarily driven by 
+growth in revenues subject to TAC. The TAC rate  increased  from 21.7%  to 21.9%  from the three months ended 
+March 31, 2021  to the three months ended March 31, 2022  due to a combination of factors none of which were 
+individually significant . The TAC rate on Google Search & other properties revenues  and the TAC rate on Google 
+Network revenues were both substantially consistent  from three months ended March 31, 2021  to the three months 
+ended March 31, 2022 .
+The increase i n other cost of revenues from the three months ended March 31, 2021  to the three months 
+ended March 31, 2022  was primarily  due to increases in data center  and other operations costs, including 
+depreciation expense,  as well as content acquisition costs primarily for YouTube.
+Research and Development
+The following table presents R&D expenses (in millions, except percentages):
+Three Months Ended
+ March 31,
+ 2021 2022
+Research and development expenses $ 7,485 $ 9,119 
+Research and development expenses as a percentage of revenues  13.5 %  13.4 %
+R&D expenses increased  $1.6 billion  from the three months ended March 31, 2021  to the three months ended 
+March 31, 2022 . The increase  was  primar ily due to  an increase  in compensation expenses of $944 million , largely 
+resulting from a 14% increase  in headcount.
+Sales and Marketing
+The following table presents sales and marketing expenses (in millions, except percentages):
+Three Months Ended
+ March 31,
+ 2021 2022
+Sales and marketing expenses $ 4,516 $ 5,825 
+Sales and marketing expenses as a percentage of revenues  8.2 %  8.6 %
+Sales and marketing expenses increased  $1.3 billion  from the three months ended March 31, 2021  to the three 
+months ended March 31, 2022  primarily driven by an increase in compensation expenses of $599 million  and an 
+increase in advertising and promotional activities of $494 million . The increase in compensation expenses was 
+largely due to a 21% increase  in headcount. The increase in advertising and promotional activities was driven by 
+both increased spending in the current period and a reduction in spending in the prior year comparable period due 
+to COVID19.
+General and Administrative
+The following table presents general and administrative expenses (in millions, except percentages):
+Three Months Ended
+ March 31,
+ 2021 2022
+General and administrative expenses $ 2,773 $ 3,374 
+General and administrative expenses as a percentage of revenues  5.0 %  5.0 %
+General and administrative expenses increased  $601 million  from the three months ended March 31, 2021  to 
+the three months ended March 31, 2022 . The increase was primarily driven by  an increase in compensation 
+expenses of $292 million , largely resulting from a 19% increase  in headcount.Table of Contents Alphabet Inc.
+37Segment Profitability
+The following table presents segment operating income (loss) (in millions). 
+Three Months Ended
+March 31,
+2021 2022
+Operating income (loss):
+Google Services $ 19,546 $ 22,920 
+Google Cloud  (974)  (931) 
+Other Bets  (1,145)  (1,155) 
+Corporate costs, unallocated(1) (990)  (740) 
+Total income from operations $ 16,437 $ 20,094 
+(1)Unallocated corporate costs primarily include corporate initiatives, corporate shared costs, such as finance and legal, 
+including certain fines and settlements, as well as costs associated with certain shared R&D activities. Additionally, hedging 
+gains (losses) related to revenue are included in corporate costs.
+Google Services
+Google Services operating income increased  $3.4 billion  from the three months ended March 31, 2021  to the 
+three months ended March 31, 2022 . The increase  was due to growth in revenues, partially offset by increases in  
+TAC, compensation expenses , and content acquisition costs.
+Google Cloud
+Google Cloud operating loss decreased  $43 million  from the three months ended March 31, 2021  to the three 
+months ended March 31, 2022 . The decrease  in operating loss was primarily driven by growth in revenues, partially 
+offset by an increase in expenses, primarily driven by compensation expenses.
+Other Bets
+Other Bets operating loss increased  $10 million  from the three months ended March 31, 2021  to the three 
+months ended March 31, 2022 . The increase in operating  loss was due to an increase in expenses, primarily driven 
+by compensation expenses, partially offset by  an increase in revenues.
+Other Income (Expense), Net
+The following table presents other income (expense), net (in millions):
+Three Months Ended
+ March 31,
+ 2021 2022
+Other income (expense), net $ 4,846 $ (1,160) 
+Other  income (e xpense), net, decreased  $6.0 billion  from the three months ended March 31, 2021  to the three 
+months ended March 31, 2022 , primarily due to gains and losses on equity securities and changes in accrued 
+performance fees.  In the three months ended March 31, 2022, $1.5 billion  of net unrealized losses were recognized 
+on marketable equity securities, partially offset by $460 million  of net unrealized gains on nonmarketable equity 
+securities and a $233 million  reversal of previously accrued performance fees related to certain investments. In the 
+three months ended March 31, 2021, a net unrealized gain of $4.7 billion  was recognized on nonmarketable equity 
+securities, partially offset by $665 million  of accrued performance fees.
+See Note 3  of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on 
+Form 10Q for further information.Table of Contents Alphabet Inc.
+38Provision for Income Taxes
+The following table presents provision for income taxes (in millions, except effective tax rate):
+Three Months Ended
+March 31,
+2021 2022
+Income before provision for income taxes $ 21,283 $ 18,934 
+Provision for income taxes $ 3,353 $ 2,498 
+Effective tax rate  15.8 %  13.2 %
+The effective tax rate decreased  2.6%  from the three months ended March 31, 2021  to the three months 
+ended March 31, 2022 . The decrease was primarily due to a benefit  driven by the effects of capitalization and 
+amortization of research and development expenses starting in 2022 as required by the 2017 Tax Cuts and Jobs Act 
+generating an increase in the U.S. federal ForeignDerived Intangible Income tax deduction . 
+Financial Condition
+Cash, Cash Equivalents, and Marketable Securities
+As of March 31, 2022 , we had $134.0 billion  in cash, cash equivalents, and shortterm marketable securities. 
+Cash equivalents and marketable securities a re comprised of time deposits, money market funds, highly liquid 
+government bonds, corporate debt securities, mortgagebacked and assetbacked securities and marketable equity 
+securities.
+Sources, Uses of Cash and Related Trends
+Our principal sources of liquidity are our cash, cash equivalents, and marketable securities, as well as the cash 
+flow that we generate from operations. The primary use of capital continues to be to invest for the longterm growth 
+of the business. We regularly evaluate our cash and capital structure, including the size, pace and form of capital 
+return to stockholders.
+The following table presents our cash flows (in millions):
+ Three Months Ended
+March 31,
+ 2021 2022
+Net cash provided by operating activities $ 19,289 $ 25,106 
+Net cash used in investing activities $ (5,383) $ (9,051) 
+Net cash used in financing activities $ (13,606) $ (16,214) 
+Cash Provided by Operating Activities
+Our largest source of cash provided by operations are advertising revenues generated by Google Search & 
+other properties, Google Network properties and YouTube ads. Additionally, we generate cash through sales of apps 
+and inapp purchases, digital content products, and hardware; and licensing and service fees including fees 
+received for Google Cloud offerings and subscriptionbased products.
+Our primary uses of cash from our operating activities include payments to distribution and Google Network 
+partners, for compensation and related costs, and for content acquisition costs. In addition, uses of cash from 
+operating activities include hardware inventory costs, income taxes, and other general corporate expenditures.
+Net cash provided by operating activities increased  from the three months ended March 31, 2021  to the three 
+months ended March 31, 2022  primarily due to the net effect of an increase in cash received from revenues and 
+cash paid for cost of revenues and operating expense s, and changes in operating assets and liabilities .
+Cash Used in Investing Activities
+Cash provided by investing activities consists primarily of maturities and sales of investments in marketable 
+and nonmarketable securities. Cash used in investing activities consists primarily of purchases of marketable and 
+nonmarketable securities, purchases of property and equipment, and payments for acquisitions.
+Net cash used in investing activities increased  from the three months ended March 31, 2021  to the three 
+months ended March 31, 2022  primarily due to  an increase of purchases of property and equipment, partially offset Table of Contents Alphabet Inc.
+39by a net decrease in maturities and sales of securities. The increase in property and equipment was primarily due to 
+the purchases of office facilities.
+Cash Used in Financing Activities
+Cash provided by financing activities consists primarily of proceeds from issuance of debt and proceeds from 
+the sale of interest in consolidated entities. Cash used in financing activities consists primarily of repurchases of 
+stock, net payments related to stockbased award activities, and repayments of debt.
+Net cash used in financing activities increased  from the three months ended March 31, 2021  to the three 
+months ended March 31, 2022  primarily due to an increase in repurchases of stock. 
+Liquidity and Material Cash Requirements
+We expect existing cash, cash equivalents, shortterm marketable securities, cash flows from operations and 
+financing activities to continue to be sufficient to fund our operating activities and cash commitments for investing 
+and financing activities for at least the next 12 months and thereafter for the foreseeable future .
+Capital Expenditures and Leases
+We make investments in land and buildings for data centers and offices and information technology assets 
+through purchases of property and equipment and lease arrangements to provide capacity for the growth of our 
+services and products. 
+Capital Expenditures
+Our capital investments in property and equipment consist primarily of the following major categories:
+technical infrastructure, which consists of investments in servers and network equipment for computing, 
+storage and networking requirements for ongoing business activities, including machine learning 
+(collectively referred to as information technology assets) and data center land and building construction; 
+and
+office facilities,  ground up development projects , and related building improvements.
+Construction in progress consists primarily of technical infrastructure and office facilities which have not yet 
+been placed in service for our intended use. The time frame from date of purchase to placement in service of these 
+assets may extend from months to years. For example, our data center construction projects are generally multi
+year projects with multiple phases, where we acquire qualified land and buildings, construct buildings, and secure 
+and install information technology assets. 
+During the three months ended March 31, 2021  and 2022 , capital expenditures were $5.9 billion  and $9.8 
+billion , respecti vely. Dep reciation of our property and equipment commences when the deployment of such assets 
+are completed and are ready for our intended use. Land is not depreciated. For the three months ended March 31, 
+2021  and 2022 , depreciation and impairment expenses on property and equipment were $2.5 billion  and $3.6 
+billion , respectively.
+Leases
+For the three months ended March 31, 2021  and 2022 , we recognized total operating lease assets of $769 
+million  and $915 million , respectively. As of March 31, 2022 , the amount of total future lease payments under 
+operating leases, which had a weighted average remaining lease term of 8 years, was $15.6 billion . As of March 31, 
+2022 , we have entered into leases that have not yet commenced with future lease paym ents of $5.8 billion , 
+excluding purchase options, that are not yet recorded on our Consolidated Balance Sheets. These leases will 
+commence betwee n 2022  and 2026  with noncancelable lease terms of 1 to 25 years.
+For the three months ended March 31, 2021  and 2022 , our operating lease expenses (including variable lease 
+costs) were $794 million  and $880 million , respectively. Finance lease costs were not material for the three months 
+ended March 31, 2021  and 2022 .
+Financing
+We have a shortterm debt financing program of up to $10.0 billion  through the issuance of commercial p aper. 
+Net proceeds from this program are used for general corporate purposes. As of March 31, 2022 , we had no 
+commercial paper outstanding. 
+As of March 31, 2022 , we had $10.0 billion  of revolving credit facilities, $4.0 billion  expiring in April 2022  and 
+$6.0 billion  expiring in April 2026 . In April 2022 , we entered into a new $4.0 billion  credit facility expiring in April Table of Contents Alphabet Inc.
+402023. The interest rates for all credit facilities are determined based on a formula using certain market rates, as well 
+as our progress toward the achievement of certain sustainability goals . No amounts have been borrowed under the 
+credit facilities.
+As of March 31, 2022 , we had senior unsecured notes outstanding with a total carrying value of $12.8 billion . 
+See Note 5  of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 
+10Q for further information on our debt.
+Share Repurchase Program
+In April 2021, the Board of Directors of Alphabet authorized the company to repurchase up to $50.0 billion  of its 
+Class C stock. In July 2021, the Board of Directors of Alphabet approved an amendment to the April 2021 
+authorization, permitting the company to repurchase both Class A and Class C shares in a manner deemed in the 
+best interest of the company and its stockholders, taking into account the economic cost and prevailing market 
+conditions, including the relative trading prices and volumes of the Class A and Class C shares. As of March 31, 
+2022 , $4.1 billion  remains available for Class A and Class C share repurchases under the amended authorization.  
+In accordance with the authorizations of the Board of Directors of Alphabet, during the three months ended 
+March 31, 2022 , we repurchased and subsequently retired 4.9 million  aggregate shares for $13.3 billion . Of the 
+aggregate amount repurchased and subsequently retired during the three months ended March 31, 2022 , 0.2 
+million  shares were Class A stock for $660 million  and 4.7 million  shares were Class C stock for $12.6 billion .
+In April 2022, the Board of Directors of Alphabet authorized the company to repurchase up to an additional 
+$70.0 billion  of its Class A and Class C shares in a manner deemed in the best interest of the company and its 
+stockholders, taking into account the economic cost and prevailing market conditions, including the relative trading 
+prices and volumes of the Class A and Class C shares. 
+Repurchases are executed from time to time, subject to general business and market conditions and other 
+investment opportunities, through open market purchases or privately negotiated transactions, including through 
+Rule 10b51 plans. The repurchase program does not have an expiration date.
+European Commission Fines
+In 2017, 2018 and 2019, the EC announced decisions that certain actions taken by Google infringed European 
+competition law and imposed fines of €2.4 billion  ($2.7 billion  as of June 27, 2017 ), €4.3 billion  ($5.1 billion  as of 
+June 30, 2018 ), and €1.5 billion  ($1.7 billion  as of March 20, 2019 ), respectively. While each EC decision is under 
+appeal, we included the fines in accrued expenses and other current liabilities on our Consolidated Balance Sheets 
+as we provided bank guarantees (in lieu of a cash payment) for the fin es. See Note 9 of the Notes to Consolidated 
+Financial Statements included in Item 1 of this Quarterly Report on Form 10Q.
+Taxes
+As of March 31, 2022 , we had shortterm and longterm income taxes payable of $805 million  and $5.7 billion  
+related to a onetime transition tax payable incurred as a result of the U.S. Tax Cuts and Jobs Act ("Tax Act").  As 
+permitted by the Tax Act, we will pay the transition tax in annual interestfree installments through 2025 . We also 
+have taxes payable of $3.7 billion  primarily related to uncertain tax positions as of March 31, 2022 . 
+Pending Acquisition
+In March 2022, we entered into an agreement to acquire Mandiant, a leader in dynamic cyber defense and 
+response, for $23.00  per share, in an allcash transaction valued at approximately $5.4 billion , net of cash and debt.  
+See Note 7  of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 
+10Q.
+Critical Accounting Estimates
+See Part II, Item 7, "Critical Accounting Estimates" in our Annual Report on Form 10K for the year ended 
+December 31, 2021 . 
+Available Information
+Our website is located at www.abc.xyz , and our investor relations website is located at www.abc.xyz/investor . 
+Our Annual Reports on Form 10K, Quarterly Reports on Form 10Q, Current Reports on Form 8K, and our Proxy 
+Statements,  and any amendments to these reports, are available through our investor relations website, free of 
+charge, after we file them with the SEC. We also provide a link to the section of the SEC's website 
+at www.sec.gov  that has all of the reports that we file or furnish with the SEC.Table of Contents Alphabet Inc.
+41We webcast via our investor relations website our earnings calls and certain events we participate in or host 
+with members of the investment community. Our investor relations website also provides notifications of news or 
+announcements regarding our financial performance and other items of interest to our investors, including SEC 
+filings, investor events, press and earnings releases, and blogs. We also share Google news and product updates 
+on Google’s Keyword blog at https://www.blog.google/ , which may be of interest or material to our investors. 
+Further, corporate governance information, including our certificate of incorporation, bylaws, governance guidelines, 
+board committee charters, and code of conduct, is also available on our investor relations website under the 
+heading "Other." The content of our websites are not incorporated by reference into this Quarterly Report on Form 
+10Q or in any other report or document we file with the SEC, and any references to our websites are intended to be 
+inactive textual references only.
+ITEM 3. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK
+For quantitative and qualitative disclosures about market risk, refer to Part II, Item 7A, Quantitative and 
+Qualitative Disclosures About Market Risk, in our Annual Report on Form 10K for the year ended December 31, 
+2021 .
+ITEM 4. CONTROLS AND PROCEDURES
+Evaluation of Disclosure Controls and Procedures
+Our management, with the participation of our chief executive officer and chief financial officer, evaluated the 
+effectiveness of our disclosure controls and procedures pursuant to Rule 13a15 under the Exchange Act, as of the 
+end of the period covered by this Quarterly Report on Form 10Q.
+Based on this evaluation, our chief executive officer and chief financial officer concluded that, as of March 31, 
+2022 , our disclosure controls and procedures are designed at a reasonable assurance level and are effective to 
+provide reasonable assurance that information we are required to disclose in reports that we file or submit under the 
+Exchange Act is recorded, processed, summarized, and reported within the time periods specified in the SEC’s 
+rules and forms, and that such information is accumulated and communicated to our management, including our 
+chief executive officer and chief financial officer, as appropriate, to allow timely decisions regarding required 
+disclosure.
+Changes in Internal Control over Financial Reporting
+We rely extensively on information systems to manage our business and summarize and report operating 
+results. In 2019, we began a multiyear implementation of a new global enterprise resource planning (ERP) system, 
+which will replace much of our existing core financial systems. The ERP system is designed to accurately maintain 
+our financial records, enhance the flow of financial information, improve data management and provide timely 
+information to our management team. The implementation is expected to continue in phases over the next few 
+years. There have been no changes in our internal control over financial reporting that occurred during the quarter 
+ended March 31, 2022  that have materially affected, or are reasonably likely to materially affect, our internal control 
+over financial reporting. However, as the phased implementation of the new ERP system continues, we will change 
+our processes and procedures, which in turn, could result in changes to our internal control over financial reporting. 
+As such changes occur, we will evaluate quarterly whether such changes materially affect our internal control over 
+financial reporting.
+As a result of COVID19, our global workforce continued to operate primarily in a work from home environment 
+for the quarter ended March 31, 2022 . While we continue to evolve our work model in response to the uneven 
+effects of the ongoing pandemic around the world, we believe that our internal controls over financial reporting 
+continue to be effective. We have continued to reevaluate and refine our financial reporting process to provide 
+reasonable assurance that we could report our financial results accurately and timely.
+Limitations on Effectiveness of Controls and Procedures
+In designing and evaluating the disclosure controls and procedures, management recognizes that any controls 
+and procedures, no matter how well designed and operated, can provide only reasonable assurance of achieving 
+the desired control objectives. In addition, the design of disclosure controls and procedures must reflect the fact that 
+there are resource constraints and that management is required to apply its judgment in evaluating the benefits of 
+possible controls and procedures relative to their costs.Table of Contents Alphabet Inc.
+42PART II.  OTHER INFORMATION
+ITEM 1. LEGAL PROCEEDINGS
+For a description of our material pending legal proceedings, see Note 9  “Contingencies  Legal Matters” of the 
+Notes to Consolidated Financial Statements included in Part I, Item 1 of this Quarterly Report on Form 10Q, which 
+is incorporated herein by reference.
+ITEM 1A. RISK FACTORS    
+Our operations and financial results are subject to various risks and uncertainties, including those described in 
+Part I, Item 1A, "Risk Factors" in our Annual Report on Form 10K for the year ended December 31, 2021 , which 
+could adversely affect our business, financial condition, results of operations, cash flows, and the trading price of 
+our stock. 
+ITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS
+Issuer Purchases of Equity Securities
+The following table presents information with respect to Alphabet's repurchases of Class A and Class C stock 
+during the quarter ended March 31, 2022 .
+PeriodTotal Number of 
+Class A Shares 
+Purchased 
+(in thousands) 
+(1)Total Number of 
+Class C Shares 
+Purchased 
+(in thousands) 
+(1)Average Price 
+Paid per Class 
+A Share (2)Average Price 
+Paid per Class 
+C Share (2)Total Number of 
+Shares 
+Purchased as 
+Part of Publicly 
+Announced 
+Programs
+(in thousands) 
+(1)Approximate 
+Dollar Value of 
+Shares that May 
+Yet Be 
+Purchased 
+Under the 
+Program 
+(in millions) 
+January 1  31  81  1,642 $ 2,758.20 $ 2,722.40  1,723 $ 12,679 
+February 1  28  4  1,469 $ 2,666.27 $ 2,719.33  1,473 $ 8,672 
+March 1  31  160  1,557 $ 2,665.14 $ 2,681.53  1,717 $ 4,071 
+Total  245  4,668  4,913 
+(1)Repurchases are executed from time to time, subject to general business and market conditions and other investment 
+opportunities, through open market purchases or privately negotiated transactions, including through Rule 10b51 plans.  
+The repurchase program does not have an expiration date. See Note 10  in Part I, Item 1 of this Quarterly Report on Form 
+10Q for additional information related to share repurchases.
+(2)Average price paid per share includes costs associated with the repurchases.Table of Contents Alphabet Inc.
+43ITEM 6. EXHIBITS
+Exhibit
+Number   DescriptionIncorporated by reference herein
+Form Date
+31.01 *Certification of Chief Executive Officer pursuant to 
+Exchange Act Rules 13a14(a) and 15d14(a), as 
+adopted pursuant to Section 302 of the Sarbanes
+Oxley Act of 2002
+31.02 *Certification of Chief Financial Officer pursuant to 
+Exchange Act Rules 13a14(a) and 15d14(a), as 
+adopted pursuant to Section 302 of the Sarbanes
+Oxley Act of 2002
+32.01 ‡Certifications of Chief Executive Officer and Chief 
+Financial Officer pursuant to 18 U.S.C. Section 1350, 
+as adopted pursuant to Section 906 of the Sarbanes
+Oxley Act of 2002
+101.INS *Inline XBRL Instance Document  the instance 
+document does not appear in the Interactive Data 
+File because its XBRL tags are embedded within the 
+Inline XBRL document.
+101.SCH *Inline XBRL Taxonomy Extension Schema 
+Document
+101.CAL *Inline XBRL Taxonomy Extension Calculation 
+Linkbase Document
+101.DEF *Inline XBRL Taxonomy Extension Definition Linkbase 
+Document
+101.LAB *Inline XBRL Taxonomy Extension Label Linkbase 
+Document
+101.PRE *Inline XBRL Taxonomy Extension Presentation 
+Linkbase Document
+104 Cover Page Interactive Data File (formatted as Inline 
+XBRL and contained in Exhibit 101)
+ 
+* Filed herewith.
+‡ Furnished herewith.Table of Contents Alphabet Inc.
+44 SIGNATURE
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this 
+report to be signed on its behalf by the undersigned thereunto duly authorized.
+ALPHABET INC.
+April 26, 2022 By:/s/    RUTH M. PORAT        
+Ruth M. Porat
+Senior Vice President and Chief Financial Officer
+ALPHABET INC.
+April 26, 2022 By:/s/    AMIE THUENER O'TOOLE        
+Amie Thuener O'Toole
+Vice President and Chief Accounting OfficerTable of Contents Alphabet Inc.
+45

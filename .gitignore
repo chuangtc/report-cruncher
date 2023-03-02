@@ -2,6 +2,8 @@ poetry.lock
 
 .DS_Store
 
+ECTSum-GPT3/.ipynb_checkpoints/
+
 .vscode
 
 report_cruncher/config/__pycache__/
