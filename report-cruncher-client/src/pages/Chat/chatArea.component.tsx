@@ -52,16 +52,16 @@ export const ChatAreaComponent = () => {
     };
     
     const ColorButton = styled(Button)(({ theme }) => ({
-        color: theme.palette.getContrastText(teal[600]),
-        backgroundColor: teal[600],
+        color: theme.palette.getContrastText("#3AA1AF"),
+        backgroundColor: "#3AA1AF",
         padding: '10px 30px',
         borderRadius: '5px',
         '&:hover': {
-          backgroundColor: teal[900],
+          backgroundColor: "#3AA1AF",
         },
         '&:disabled': {
-            backgroundColor: teal[400],
-            color: theme.palette.getContrastText(teal[400]),
+            backgroundColor: "#52B8C6",
+            color: theme.palette.getContrastText("#3AA1AF"),
             cursor: 'not-allowed',
         }
     }));

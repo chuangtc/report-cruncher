@@ -5,6 +5,6 @@ import {DragAndDropFileUploaderComponent} from "./dragAndDropFileUploader.compon
 export const HomePage = () => {
     return (
         // <PageStructureLayoutComponent header={<h1>Home</h1>} title={"Home"} children={<FileUploaderComponent/>}/>
-        <PageStructureLayoutComponent header={<h1>Home</h1>} title={"Home"} children={<DragAndDropFileUploaderComponent/>}/>
+        <PageStructureLayoutComponent title={"Home"} children={<DragAndDropFileUploaderComponent/>}/>
     )
 }

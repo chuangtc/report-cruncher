@@ -35,7 +35,7 @@ const Drawer = styled(MuiDrawer, {shouldForwardProp: (prop) => prop !== 'open'})
     boxSizing: 'border-box',
     '&&& .MuiDrawer-paper': {
         zIndex: 9999,
-        background: theme.palette.mode === 'light' ? '#fff' : '#696666',
+        background: theme.palette.mode === 'light' ? '#3B3F44' : '#3AA1AF',
         boxShadow:
             theme.palette.mode === 'light'
                 ? '0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1)'
@@ -123,19 +123,19 @@ const ListItem = styled(ListItemButton)`
   @media screen and (max-height: 800px) {
     padding-left: 30px;
   }
-  color: ${(props) => (props.theme.palette.mode === 'light' ? 'rgba(107, 112, 144, 1)' : 'rgba(255, 255, 255, 0.5)')};
+  color: ${(props) => (props.theme.palette.mode === 'light' ? '#fff' : '#000')};
 
   &.active {
-    color: ${(props) => (props.theme.palette.mode === 'light' ? 'rgba(58, 65, 107, 1)' : 'rgba(255, 255, 255, 1.0)')};
+    color: ${(props) => (props.theme.palette.mode === 'light' ? '#fff' : '#000')};
 
     .MuiListItemIcon-root {
       background: ${(props) =>
-              props.theme.palette.mode === 'light' ? 'rgba(238, 240, 244, 1)' : 'rgba(238, 240, 244, 0.1)'};
+              props.theme.palette.mode === 'light' ? '#3AA1AF' : '#000'};
       border-radius: 5px;
     }
 
     &.open {
-      background: ${(props) => (props.theme.palette.mode === 'light' ? 'rgba(58,65,107,0.09)' : '#003047')};
+      background: ${(props) => (props.theme.palette.mode === 'light' ? '#3AA1AF' : '#fff')};
 
       .MuiListItemIcon-root {
         background: transparent;
@@ -182,7 +182,7 @@ const MenuLogo = styled('div')`
   font-size: 24px;
   line-height: 24px;
   letter-spacing: 0.15px;
-  color: ${(props) => (props.theme.palette.mode === 'light' ? 'rgba(30, 34, 55, 0,87)' : 'rgba(255, 255, 255, 0.87)')};
+  color: ${(props) => (props.theme.palette.mode === 'light' ? '#fff' : '#fff')};
   height: 150px;
   @media screen and (max-height: 800px) {
     height: 100px;

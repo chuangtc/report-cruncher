@@ -2,7 +2,7 @@ import React from "react";
 import {styled} from "@mui/material";
 
 interface PageStructureLayoutProps {
-    header: React.ReactNode
+    header?: React.ReactNode
     children: React.ReactNode
     title: string
     subtitle?: string

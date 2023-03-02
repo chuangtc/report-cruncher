@@ -17,7 +17,7 @@ const AppContainer = styled('div')`
 `
 const AppBackgroundContainer = styled('div')`
   position: fixed;
-  background: ${(props) => (props.theme.palette.mode === 'light' ? '#F6F6F9' : '#091318')};
+  background: ${(props) => (props.theme.palette.mode === 'light' ? '#F6F6F9' : '#3B3F44')};
   z-index: -1;
   inset: 0;
   overflow: hidden;

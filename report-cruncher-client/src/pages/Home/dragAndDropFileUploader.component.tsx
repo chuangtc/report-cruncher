@@ -15,6 +15,14 @@ const ContainerWrapper = styled('div')`
   height: 100%;
 `
 
+const ColorButton = styled(Button)(({ theme }) => ({
+    color: theme.palette.getContrastText("#3AA1AF"),
+    backgroundColor: "#3AA1AF",
+    '&:hover': {
+      backgroundColor: "#3AA1AF",
+    },
+}));
+
 export const DragAndDropFileUploaderComponent = () => {
     const dispatcher = useDispatch();
     const navigate = useNavigate();
@@ -111,7 +119,7 @@ export const DragAndDropFileUploaderComponent = () => {
                     </p>
                 }
             </div>
-             <Button
+             <ColorButton
                 variant="contained"
                 onClick={handleSubmit}
                 disabled={state.isUploading}
@@ -124,7 +132,7 @@ export const DragAndDropFileUploaderComponent = () => {
                 }}
             >
                 CRUNCH IT
-            </Button>
+            </ColorButton>
         </ContainerWrapper>
     );
 };
