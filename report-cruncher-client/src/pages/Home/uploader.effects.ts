@@ -1,5 +1,5 @@
 import {ofType} from 'redux-observable'
-import {switchMap} from 'rxjs/operators'
+import {catchError, switchMap} from 'rxjs/operators'
 import {Epics} from "../../store/store.types";
 import {
     AvailableNotficationStatus,
@@ -7,20 +7,36 @@ import {
     showNotification,
 } from "../../store/notificationSlice";
 import {uploaderSlice} from "./uploader.reducer";
+import {UploaderService} from "./uploader.service";
+
+const sliceToUse = uploaderSlice
 
 const uploadFiles$: Epics = (action$, state$) =>
-    action$.pipe(ofType(uploaderSlice.actions.uploadFiles)).pipe(
+    action$.pipe(ofType(sliceToUse.actions.uploadFiles)).pipe(
         switchMap((action: any) => {
             if (action.payload.length == 0) {
                 return [showNotification(
                     getNotificationActionPayload('THERE IS NO FILE TO BE UPLOADED', AvailableNotficationStatus.warning)
                 ), uploaderSlice.actions.handleError(),]
             }
-// TODO call the service to upload the file
-            // if successfully redirect the user to the chat screeen
-            return [showNotification(
-                getNotificationActionPayload('File uploaded successfully', AvailableNotficationStatus.success)
-            ), uploaderSlice.actions.handleSuccess(),]
+            return UploaderService.uploadFile(action.payload).pipe(
+                switchMap((response: any) => {
+                    if (response.success === false) {
+                        return [showNotification(
+                            getNotificationActionPayload(response.error, AvailableNotficationStatus.error)
+                        ), uploaderSlice.actions.handleError(),]
+                    }
+                    return [sliceToUse.actions.setUploadSuccess(response),
+                        showNotification(
+                            getNotificationActionPayload('File uploaded successfully', AvailableNotficationStatus.success)
+                        )
+                    ]
+                }),
+                catchError(() => [showNotification(
+                    getNotificationActionPayload('Error occurred, please try again later', AvailableNotficationStatus.warning),
+                ),
+                    uploaderSlice.actions.handleError(),]),
+            )
         }),
     )
 

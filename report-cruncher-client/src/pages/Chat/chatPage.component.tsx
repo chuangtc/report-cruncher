@@ -68,9 +68,6 @@ export const ChatPageComponent = () => {
     const navigator = useNavigate();
 
     useEffect(() => {
-        if (uploaderState.isUploadSuccess) {
-            dispatch(uploaderSlice.actions.setUploadSuccess());
-        }
         if (id) {
             chatState.chatRooms.forEach((item) => {
                 if (item.route?.includes(`chat/${id}`)) {
@@ -79,7 +76,7 @@ export const ChatPageComponent = () => {
             })
         }
     }, [id])
-      
+
     const handleSubmit = () => {
         const message: Message = {
             text: state.text,
@@ -122,15 +119,15 @@ export const ChatPageComponent = () => {
         const headers = {
             "Content-Type": "application/json",
         };
-        
+
         const body = JSON.stringify({ message });
-        
+
         const response = await fetch("/v1/chat", {
             method: "GET",
             headers,
             body,
         });
-      
+
         if (response.ok) {
             const result = await response.json();
             // handle success

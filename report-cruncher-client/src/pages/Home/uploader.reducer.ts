@@ -7,6 +7,9 @@ export interface UploaderSliceState {
     isUploadSuccess: boolean,
 
     fileName?: string
+
+    gptResponse?: string,
+
     uploadError: string | null,
 }
 
@@ -15,6 +18,7 @@ export const getInitialState = (): UploaderSliceState => ({
     isUploading: false,
     fileName: undefined,
     uploadProgress: 0,
+    gptResponse: undefined,
     uploadError: null,
     isUploadSuccess: false,
 })
@@ -37,8 +41,10 @@ export const uploaderSlice = createSlice({
             state.isUploading = false
             state.isUploadSuccess = true
         },
-        setUploadSuccess:  (state) => {
+        setUploadSuccess:  (state, action  ) => {
             state.isUploadSuccess = false
+            state.gptResponse = action.payload
+
         }
     }
 })
