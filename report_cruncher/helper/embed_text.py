@@ -34,3 +34,20 @@ def execute(prompt):
     # redis_client.set("text", text)
 
     return text
+
+def execute_question(article,question):
+    # Call OpenAI API
+    openai.api_key = OPENAI_API_KEY
+   
+    response=openai.Completion.create(
+        model="curie:ft-tpisoftware-2023-03-02-16-10-55",
+        prompt="{question}",
+        max_tokens=64,
+        temperature=0
+    )
+    # print(response)
+    text = response.choices[0].text.strip(" \n")
+    # Store the text in Redis
+    # redis_client.set("text", text)
+
+    return text
