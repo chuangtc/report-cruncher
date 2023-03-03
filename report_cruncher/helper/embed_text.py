@@ -27,7 +27,7 @@ def execute(prompt):
     # return embedding
     response = openai.Completion.create(
         model="curie:ft-tpisoftware-2023-03-02-16-10-55",
-        prompt="Summarize the following text:{prompt}",
+        prompt=f"Summarize the following text:{prompt[0:2000]}",
         max_tokens=256,
         temperature=0
     )
@@ -45,7 +45,7 @@ def execute_question(article, question):
 
     response = openai.Completion.create(
         model="curie:ft-tpisoftware-2023-03-02-16-10-55",
-        prompt="{question}",
+        prompt=f"out of this context {article[0:2000]}, answer this question {question}",
         max_tokens=64,
         temperature=0
     )

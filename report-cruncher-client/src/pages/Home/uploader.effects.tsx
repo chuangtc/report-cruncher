@@ -8,6 +8,10 @@ import {
 } from "../../store/notificationSlice";
 import {uploaderSlice} from "./uploader.reducer";
 import {UploaderService} from "./uploader.service";
+import { chatSlice } from '../../components/pageLayout/chat.slice';
+import {getRouteEntry} from "../../components/pageLayout/pageLayout.component";
+import ChatIcon from "@mui/icons-material/Chat";
+import React from "react";
 
 const sliceToUse = uploaderSlice
 
@@ -22,13 +26,13 @@ const uploadFiles$: Epics = (action$, state$) =>
             return UploaderService.uploadFile(action.payload[0]).pipe(
                 switchMap((response: any) => {
 
-                    console.log(response)
+                    console.log(response.text)
                     if (response.success === false) {
                         return [showNotification(
                             getNotificationActionPayload(response.error, AvailableNotficationStatus.error)
                         ), sliceToUse.actions.handleError(),]
                     }
-                    return [sliceToUse.actions.setUploadSuccess(response),
+                    return [sliceToUse.actions.handleSuccess(response.text),
                         showNotification(
                             getNotificationActionPayload('File uploaded successfully', AvailableNotficationStatus.success)
                         )

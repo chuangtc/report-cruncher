@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Button, Container, styled, TextField} from '@mui/material';
+import {Button, Container, Grid, styled, TextField} from '@mui/material';
 import CircularProgress from '@mui/material/CircularProgress';
 import Box from '@mui/material/Box';
 import {useNavigate, useParams} from "react-router-dom";
@@ -9,6 +9,7 @@ import {useAppSelector} from "../../store/store";
 import {chatPageSlice, Message} from './chatPage.slice';
 import DeleteIcon from '@mui/icons-material/Delete';
 import {chatSlice} from "../../components/pageLayout/chat.slice";
+import {environment} from "../../constants/environment";
 
 const GptTextWrapper = styled('div')`
   width: 100%;
@@ -32,11 +33,42 @@ const TextAreaStyle = styled(TextField)`
   width: 100%;
   padding: 11px;
   flex: 1;
+
   .MuiInputBase-root {
     padding: 10px 14px;
   }
 `
+const SummaryTextStyled: any = styled('div')`
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 200px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  color: ${(props) => (props.theme.palette.mode === 'light' ? '#fff' : '#000')};
+  margin-left: 5px;
 
+  span {
+    position: relative;
+    width: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: ${(props) => (props.theme.palette.mode === 'light' ? '#000' : '#000')};
+    animation: typewriter 1s steps(44) 1s 1 normal both,
+    blinkTextCursor 200ms infinite;
+
+  }
+`
 
 type ChatPageState = {
     text: string
@@ -68,6 +100,9 @@ export const ChatPageComponent = () => {
     const navigator = useNavigate();
 
     useEffect(() => {
+        if (uploaderState.isUploadSuccess) {
+            dispatch(uploaderSlice.actions.setUploadSuccess());
+        }
         if (id) {
             chatState.chatRooms.forEach((item) => {
                 if (item.route?.includes(`chat/${id}`)) {
@@ -115,15 +150,15 @@ export const ChatPageComponent = () => {
         });
     }
 
-    const fetchChatData = async ( message: string ) => {
+    const fetchChatData = async (message: string) => {
         const headers = {
             "Content-Type": "application/json",
         };
 
-        const body = JSON.stringify({ message });
+        const body = JSON.stringify({question: message});
 
-        const response = await fetch("/v1/chat", {
-            method: "GET",
+        const response = await fetch(`${environment.API.BACKEND_URL}/v1/chat`, {
+            method: "POST",
             headers,
             body,
         });
@@ -132,6 +167,12 @@ export const ChatPageComponent = () => {
             const result = await response.json();
             // handle success
             console.log(result);
+
+            const message: Message = {
+                text: result.text,
+                isGpt: true,
+            }
+            dispatch(chatPageSlice.actions.sendMessage({message: message}));
         } else {
             const error = await response.json();
             // handle error
@@ -182,47 +223,67 @@ export const ChatPageComponent = () => {
             {chatPageState.isLoading ?
                 <CircularIndeterminate/> :
                 <>
-                    <Container
-                        style={{
-                            display: 'flex',
-                            alignItems: 'center',
-
+                    <Grid container spacing={2}>
+                        <Grid item xs={6} style={{
+                            height: 'calc(100vh - 89px)',
+                            overflow: 'auto'
                         }}>
-                        <h3 style={{
-                            color: '#3AA1AF',
-                        }}>Chatting with {chatPageState.pageTitle} </h3>
-                        {getDeleteIcon()}
-                    </Container>
-                    <ChatArea/>
-                    <form
-                        noValidate
-                        autoComplete={'off'}
-                        style={{
-                            zIndex: 1000,
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'space-between',
-                            gap: '10px',
-                            position: 'fixed',
-                            bottom: '0',
-                            width: '-webkit-fill-available',
-                            margin: '0 20px',
-                        }}
-                        onSubmit={(e) => {
-                            e.preventDefault();
-                            handleSubmit();
-                        }}
-                    >
-                        <TextAreaStyle
-                            id="chat"
-                            multiline
-                            minRows={1}
-                            maxRows={8}
-                            value={state.text}
-                            onChange={handleOnChange}
-                        />
-                        <SendButton/>
-                    </form>
+                            <Container
+                                style={{
+                                    display: 'flex',
+                                    alignItems: 'center',
+
+                                }}>
+                                <h3 style={{
+                                    color: '#3AA1AF',
+                                }}>Chatting with {chatPageState.pageTitle} </h3>
+                                {getDeleteIcon()}
+                            </Container>
+                            <ChatArea/>
+                            <form
+                                noValidate
+                                autoComplete={'off'}
+                                style={{
+                                    zIndex: 1000,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'space-between',
+                                    gap: '10px',
+                                    position: 'fixed',
+                                    paddingTop: '10px',
+                                    bottom: '0',
+                                    minWidth: '50%',
+                                    margin: '0 20px',
+                                }}
+                                onSubmit={(e) => {
+                                    e.preventDefault();
+                                    handleSubmit();
+                                }}
+                            >
+                                <TextAreaStyle
+                                    id="chat"
+                                    multiline
+                                    minRows={1}
+                                    maxRows={8}
+                                    value={state.text}
+                                    onChange={handleOnChange}
+                                />
+                                <SendButton/>
+                            </form>
+                        </Grid>
+
+                        <Grid item xs={6}>
+                            <h3 style={{
+                                color: '#3AA1AF',
+                            }}>Summarization of {chatPageState.pageTitle} </h3>
+                            <SummaryTextStyled className={'gpt-summary'}>
+                                <span>{uploaderState.gptResponse}</span>
+
+                            </SummaryTextStyled>
+
+                        </Grid>
+                    </Grid>
+
                 </>
             }
         </>

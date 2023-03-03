@@ -8,6 +8,7 @@ import {useNavigate} from "react-router-dom";
 import {getRouteEntry} from "../../components/pageLayout/pageLayout.component";
 import ChatIcon from "@mui/icons-material/Chat";
 import {chatSlice} from "../../components/pageLayout/chat.slice";
+import CircularProgress from "@mui/material/CircularProgress";
 
 const ContainerWrapper = styled('div')`
   display: flex;
@@ -172,6 +173,8 @@ export const DragAndDropFileUploaderComponent = () => {
             >
                 CRUNCH IT
             </ColorButton>
+            {state.isUploading ?
+                <CircularProgress/> : <></>}
         </ContainerWrapper>
     );
 };

@@ -37,15 +37,14 @@ export const uploaderSlice = createSlice({
         handleError: (state ) => {
             state.isUploading = false
         },
-        handleSuccess: (state) => {
-            state.isUploading = false
-            state.isUploadSuccess = true
-        },
-        setUploadSuccess:  (state, action  ) => {
+        handleSuccess: (state, action  ) => {
             state.isUploading = false
             state.isUploadSuccess = true
             state.gptResponse = action.payload
-
+        },
+        setUploadSuccess:  (state ) => {
+            state.isUploading = false
+            state.isUploadSuccess = false
         }
     }
 })

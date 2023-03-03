@@ -8,7 +8,12 @@ def write_to_txt(filename, data) -> None:
     except Exception as e:
         print(e)
 
-
+def read_from_txt(filename) -> str:
+    try:
+        with open(filename, "r") as f:
+            return f.read()
+    except Exception as e:
+        print(e)
 def read_pdf(file) -> str:
     _data = ""
 
@@ -17,13 +22,13 @@ def read_pdf(file) -> str:
     pages = len(pdfReader.pages)
 
     for i in range(pages):
-        
+
         page = pdfReader.pages[i]
-        
+
         t = page.extract_text()
 
         _data += t
 
-    write_to_txt("test.txt", _data)
+    write_to_txt("finance.txt", _data)
 
     return _data
