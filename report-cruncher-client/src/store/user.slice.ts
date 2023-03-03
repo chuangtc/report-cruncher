@@ -15,7 +15,7 @@ export interface UserState {
 }
 
 const initialSidebarOpen = getFromLocalStorage('sidebarOpen') ?? true
-const initialDarkMode = getFromLocalStorage('darkMode') ?? true
+const initialDarkMode = getFromLocalStorage('darkMode') ?? false
 const setSidebarOpenCSSVariable = (newOpen: boolean) => {
     document.documentElement.style.setProperty('--sidebarWidth', newOpen ? '277px' : '103px')
 }

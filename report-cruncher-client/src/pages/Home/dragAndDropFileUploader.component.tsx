@@ -51,7 +51,7 @@ export const DragAndDropFileUploaderComponent = () => {
             method: "POST",
             body: formData,
         });
-      
+
         if (response.ok) {
             const result = await response.json();
             // handle success
@@ -68,7 +68,7 @@ export const DragAndDropFileUploaderComponent = () => {
             addChatItem()
         }
     }, [state.isUploadSuccess])
-    
+
     const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
         // handle uploaded files here
         const uploadedFile = e.target.files && e.target.files[0];
@@ -81,7 +81,7 @@ export const DragAndDropFileUploaderComponent = () => {
 
     const handleSubmit = () => {
         dispatcher(uploaderSlice.actions.uploadFiles(filesToUpload))
-        postFile(filesToUpload[0])
+        // postFile(filesToUpload[0])
     };
 
     const addChatItem = () => {

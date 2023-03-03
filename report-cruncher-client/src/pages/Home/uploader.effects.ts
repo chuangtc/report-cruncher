@@ -17,14 +17,16 @@ const uploadFiles$: Epics = (action$, state$) =>
             if (action.payload.length == 0) {
                 return [showNotification(
                     getNotificationActionPayload('THERE IS NO FILE TO BE UPLOADED', AvailableNotficationStatus.warning)
-                ), uploaderSlice.actions.handleError(),]
+                ), sliceToUse.actions.handleError(),]
             }
-            return UploaderService.uploadFile(action.payload).pipe(
+            return UploaderService.uploadFile(action.payload[0]).pipe(
                 switchMap((response: any) => {
+
+                    console.log(response)
                     if (response.success === false) {
                         return [showNotification(
                             getNotificationActionPayload(response.error, AvailableNotficationStatus.error)
-                        ), uploaderSlice.actions.handleError(),]
+                        ), sliceToUse.actions.handleError(),]
                     }
                     return [sliceToUse.actions.setUploadSuccess(response),
                         showNotification(
@@ -35,7 +37,7 @@ const uploadFiles$: Epics = (action$, state$) =>
                 catchError(() => [showNotification(
                     getNotificationActionPayload('Error occurred, please try again later', AvailableNotficationStatus.warning),
                 ),
-                    uploaderSlice.actions.handleError(),]),
+                    sliceToUse.actions.handleError(),]),
             )
         }),
     )

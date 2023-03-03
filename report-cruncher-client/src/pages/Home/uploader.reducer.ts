@@ -42,7 +42,8 @@ export const uploaderSlice = createSlice({
             state.isUploadSuccess = true
         },
         setUploadSuccess:  (state, action  ) => {
-            state.isUploadSuccess = false
+            state.isUploading = false
+            state.isUploadSuccess = true
             state.gptResponse = action.payload
 
         }

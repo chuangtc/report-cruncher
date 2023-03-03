@@ -2,16 +2,18 @@
 
 import {axiosObservable} from "../../utils/requestUtils";
 import {AxiosRequestConfig} from 'axios';
+import {environment} from "../../constants/environment";
 
 const uploadFile = (file: File) => {
     const formData = new FormData();
     formData.append('file', file);
     const requestConfig: AxiosRequestConfig = {
         method: 'POST',
-        url: 'http://localhost:8000/v1/dataloader',
+        url: `${environment.API.BACKEND_URL}/v1/dataloader`,
         data: formData,
         headers: {
             'Content-Type': 'multipart/form-data',
+            'Accept': 'application/json',
         },
     };
 

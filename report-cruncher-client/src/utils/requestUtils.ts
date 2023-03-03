@@ -9,6 +9,7 @@ export const axiosObservable = <T>(config: AxiosRequestConfig): Observable<T> =>
                 observer.complete();
             })
             .catch((error) => {
+                console.log(error)
                 observer.error(error);
             });
     });
