@@ -23,11 +23,7 @@ export const getInitialState = (): ChatPageSliceState => ({
     messages: [{
         text: 'Hello, how can I help you?',
         isGpt: true
-    },
-        {
-            text: 'I want to know about the weather in London',
-            isGpt: false
-        }],
+    }],
     isLoading: false,
     sendError: null,
     isFetching: false,
