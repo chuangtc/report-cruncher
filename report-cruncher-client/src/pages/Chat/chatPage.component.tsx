@@ -193,6 +193,7 @@ export const ChatPageComponent = () => {
                             id="chat"
                             multiline
                             minRows={1}
+                            maxRows={8}
                             value={state.text}
                             onChange={handleOnChange}
                         />
