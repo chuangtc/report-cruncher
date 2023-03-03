@@ -66,6 +66,7 @@ export const ChatPageComponent = () => {
     const chatState = useAppSelector((state) => state.chat)
     const {id} = useParams();
     const navigator = useNavigate();
+
     useEffect(() => {
         if (uploaderState.isUploadSuccess) {
             dispatch(uploaderSlice.actions.setUploadSuccess());
@@ -78,13 +79,14 @@ export const ChatPageComponent = () => {
             })
         }
     }, [id])
-
+      
     const handleSubmit = () => {
         const message: Message = {
             text: state.text,
             isGpt: false,
         }
         dispatch(chatPageSlice.actions.sendMessage({message: message}));
+        fetchChatData(state.text);
     };
 
     const CircularIndeterminate = () => {
@@ -115,13 +117,38 @@ export const ChatPageComponent = () => {
             }
         });
     }
+
+    const fetchChatData = async ( message: string ) => {
+        const headers = {
+            "Content-Type": "application/json",
+        };
+        
+        const body = JSON.stringify({ message });
+        
+        const response = await fetch("/v1/chat", {
+            method: "GET",
+            headers,
+            body,
+        });
+      
+        if (response.ok) {
+            const result = await response.json();
+            // handle success
+            console.log(result);
+        } else {
+            const error = await response.json();
+            // handle error
+            console.log(error);
+        }
+    };
+
     const ChatArea = () => {
         return (
             <>
                 {
                     chatPageState.messages.map((item, index) => {
                         return (
-                            <ChatAreaWrapper>
+                            <ChatAreaWrapper key={index}>
                                 {item.isGpt ?
                                     <GptTextWrapper>
                                         <p>{item.text}</p>

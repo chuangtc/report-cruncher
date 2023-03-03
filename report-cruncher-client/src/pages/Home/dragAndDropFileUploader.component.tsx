@@ -42,11 +42,33 @@ export const DragAndDropFileUploaderComponent = () => {
         }
     };
 
+    // post file to server for preprocessing
+    const postFile = async (file: File) => {
+        const formData = new FormData();
+        formData.append("file", file);
+
+        const response = await fetch("/v1/dataloader", {
+            method: "POST",
+            body: formData,
+        });
+      
+        if (response.ok) {
+            const result = await response.json();
+            // handle success
+            console.log(result)
+        } else {
+            const error = await response.json();
+            // handle error
+            console.log(error)
+        }
+    };
+
     useEffect(() => {
         if (state.isUploadSuccess) {
             addChatItem()
         }
     }, [state.isUploadSuccess])
+    
     const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
         // handle uploaded files here
         const uploadedFile = e.target.files && e.target.files[0];
@@ -59,7 +81,9 @@ export const DragAndDropFileUploaderComponent = () => {
 
     const handleSubmit = () => {
         dispatcher(uploaderSlice.actions.uploadFiles(filesToUpload))
+        postFile(filesToUpload[0])
     };
+
     const addChatItem = () => {
         const chatRoomsLength = chatState.chatRooms.length
         const chatRoom = `/chat/${chatRoomsLength}`
@@ -73,6 +97,7 @@ export const DragAndDropFileUploaderComponent = () => {
         dispatcher(chatSlice.actions.addChatRoom(item))
         navigate(chatRoom)
     }
+
     return (
         <ContainerWrapper>
             <div
