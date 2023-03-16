@@ -17,4 +17,6 @@ ECTSum-GPT3/__pycache__/
 
 env/
 .env/
+.env
+
 report-cruncher-client/node_modules
