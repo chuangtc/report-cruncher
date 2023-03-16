@@ -62,8 +62,8 @@ yarn start
 
 
 ### Codes
-Codes and instructions for our proposed model <b> <i> ECT-BPS </b> </i> can be found under `codes/ECT-BPS` <br />
-Codes and instructions for our baseline models can be found under `codes/baselines`
+Codes and instructions for our proposed model <b> <i> ECT-BPS </b> </i> can be found under `ECTSum-GPT3/codes/ECT-BPS` <br />
+Codes and instructions for our baseline models can be found under `ECTSum-GPT3/codes/baselines`
 
 ### Data Preparation for ECT-BPS
 #### Preparing the data for training the <i> Extractive Module </i>

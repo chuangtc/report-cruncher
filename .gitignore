@@ -12,6 +12,9 @@ report_cruncher/helper/__pycache__/
 
 report_cruncher/__pycache__/
 
+
+ECTSum-GPT3/__pycache__/
+
 env/
 .env/
 report-cruncher-client/node_modules
