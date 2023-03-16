@@ -1,4 +1,5 @@
 # Report Cruncher Service
+<https://chuangtc.com/openai-hackathon-2023/>
 
 ## Running in docker container
 ```bash
